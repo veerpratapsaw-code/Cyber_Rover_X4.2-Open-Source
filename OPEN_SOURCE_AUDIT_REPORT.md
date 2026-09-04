@@ -118,6 +118,7 @@ All unclassified, UUID-named, or legacy assets were renamed into clear, professi
 | `ccfe95a2-...jpg` | `cyberrover_x4_early_electronics_integration.jpg`| `media/prototypes/` | Electronics integration |
 | `3.panther.png` | `panther_logo.png` | `media/prototypes/` | OLED boot splash graphic |
 | `printing cyber rover x4/poster/1.png` to `9.png`| `poster_panel_01.png` to `09.png` | `documentation/exhibition/posters/` | 9-panel exhibition series |
+| `media_1788546085440.jpg` | `exhibition_printed_poster_composite.jpg` | `documentation/exhibition/posters/` | Authentic 9-panel printed exhibition poster sheet photographed in preparation for School Exhibition |
 | `printing cyber rover x4/part-1.pdf` | `part-1.pdf` & `part-1_alt.pdf` | `documentation/exhibition/handouts/` | Printable brochure part 1 |
 | `printing cyber rover x4/part-2.pdf` | `part-2.pdf` & `part-2_alt.pdf` | `documentation/exhibition/handouts/` | Printable brochure part 2 |
 | `evolution/photo-1` | `cyberrover_evolution_01_4wd_tb6612fng_prototype.jpg` | `media/prototypes/` | Original 4WD prototype with dual TB6612FNG drivers and 4 TT motors |

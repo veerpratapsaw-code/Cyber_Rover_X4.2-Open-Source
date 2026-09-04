@@ -147,8 +147,12 @@ Despite multiple exhibition awards, thorough field trials revealed three critica
   * Developed the ground cockpit web dashboard with 6-channel Bézier oscilloscope telemetry.
   * Created the React 19 + Vite interactive showcase web application.
   * Authored complete open-source documentation: text-based `WIRING.md`, itemized `BOM.md`, transparent `COST_ESTIMATE.md`, and multi-license framework.
+  * Prepared and printed the 9-panel technical exhibition poster grid covering mobility, gas sensing, cockpit telemetry, and mission scenarios.
 * **Hours Invested**: **50+ Hours**.
 * **Total Cumulative R&D Effort**: **850+ Hours**.
+
+![CyberRover X4 Complete Printed Exhibition Poster Sheet](documentation/exhibition/posters/exhibition_printed_poster_composite.jpg)
+*Figure 6: Authentic 9-panel printed exhibition poster sheet displayed during presentation preparations for the School Science & Robotics Exhibition in Katras, Dhanbad.*
 
 ---
 
