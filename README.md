@@ -59,7 +59,7 @@ The **CyberRover X4.2** is an open-source, multi-microcontroller ground robotics
 2. **CyberRover X1 (Jan 2026)**: 8WD battle robot with Arduino Uno + ESP32-S3 + L298N drivers (🏆 **2nd Prize**, School RoboFight).
 3. **CyberRover X2 (Apr 2026)**: First environmental recon rover with MQ gas telemetry, 8WD chassis, and front OLED (🏆 **2nd Prize**, BIT Sindri Exhibition).
 4. **CyberRover X3 (Jun 2026)**: AI vision leap with smartphone camera, real-time YOLO object detection, laptop voice synthesis, and auto sonar navigation (🏆 **3rd Prize**, BIT Sindri Exhibition).
-5. **CyberRover X4 & X4.2 (Aug–Sep 2026)**: Complete industrial redesign with heavy-duty 4WD 37GB geared motors, dual 43A BTS7960 drivers, custom handmade handheld remote with ESP-NOW HUD, distributed 4-MCU architecture, and open-source release.
+5. **CyberRover X4 & X4.2 (Aug–Sep 2026)**: Complete industrial redesign with heavy-duty 4WD 37GB geared motors, dual 43A BTS7960 drivers, custom handmade handheld remote with ESP-NOW HUD, distributed 4-MCU architecture, 🥇 **1st Prize & Gold Medal** at the School Science & Robotics Exhibition, and open-source release.
 
 ---
 
@@ -324,17 +324,26 @@ For the detailed component itemization and remote controller breakdown, see [`ha
 │ Power Conversion & Battery        │            ₹490  │           ₹450  │
 │ Remote Controls & Display         │          ₹1,000  │           ₹650  │
 │ Displays & Sound                  │            ₹350  │            ₹50  │
-│ Wiring, Fasteners & Chassis       │          ₹1,130  │           ₹600  │
+│ Wiring, Fasteners, Chassis & Mount│         ~₹2,630  │           ₹600  │
 ├───────────────────────────────────┼──────────────────┼─────────────────┤
-│ COMPLETE UNIT REPLICATION COST    │ ~₹10,000 - 11,000│ ~₹6,000 - 6,500 │
-│                                   │    (~ $125 USD)  │    (~ $75 USD)  │
+│ ACTIVE UNIT BUILD VALUE / COST    │         ₹12,000+ │ ~₹6,000 - 6,500 │
+│                                   │    (~ $145 USD)  │    (~ $75 USD)  │
 ├───────────────────────────────────┼──────────────────┼─────────────────┤
-│ Separate Historical R&D Loss      │         > ₹5,000 │             N/A │
+│ R&D / Learning Losses (5 Gens)    │          ₹5,000+ │             N/A │
+│ Dedicated Workshop Tools & Lab Eq.│  ₹8,000 - 10,000 │             N/A │
+├───────────────────────────────────┼──────────────────┼─────────────────┤
+│ TOTAL 1-YEAR PERSONAL INVESTMENT  │₹27,000 - 30,000+ │             N/A │
+│                                   │(~ $330 - 360 USD)│                 │
 └───────────────────────────────────┴──────────────────┴─────────────────┘
 ```
 
 > [!IMPORTANT]
-> The project owner incurred **over ₹5,000 in material losses** during hands-on learning across 5 generations (burned motor drivers, overvolted microcontrollers, damaged sensor heating coils, and scrap chassis cuts). In accordance with open-source accounting standards, this is documented separately and is **NOT** added to the unit replication BOM. See [`hardware/COST_ESTIMATE.md`](hardware/COST_ESTIMATE.md).
+> Developing this platform indigenously required a personal out-of-pocket investment of **more than ₹27,000 to ₹30,000 INR** over the last 1 year. This comprises:
+> - **Current Working X4.2 Build**: **₹12,000+ INR** (Core vehicle, motors, 5 MCUs, sensors, handmade remote, 3S battery, balance charger, hardware).
+> - **R&D / Learning Losses**: **₹5,000+ INR** (burned motor drivers, overvolted MCUs, damaged sensor heating coils, and scrap chassis cuts).
+> - **Dedicated Lab Tools & Equipment**: **₹8,000 – ₹10,000 INR** (soldering station, multimeter, wire strippers, glue gun, precision drill bits, bench power equipment).
+> 
+> See [`hardware/COST_ESTIMATE.md`](hardware/COST_ESTIMATE.md) for full accounting.
 
 ---
 
@@ -438,9 +447,10 @@ See [`LICENSE.md`](LICENSE.md) and [`THIRD_PARTY.md`](THIRD_PARTY.md) for full d
   - Location: **Katras, Dhanbad, Jharkhand, India**
 - **Core Collaborator (X2 & X3 Generations)**: **Om Ashutosh** (Co-developed the CyberRover X2 and X3 models for collegiate exhibitions).
 - **Competition Honors & Exhibition Awards**:
-  - 🏆 **2nd Prize** — School RoboFight Tournament (January 2026, 8WD CyberRover X1)
+  - 🥇 **1st Prize & Gold Medal** — School Science & Robotics Exhibition (Aug–Sep 2026, CyberRover X4) in Katras, Dhanbad
+  - 🏆 **2nd Prize** — School RoboFight Combat Tournament (January 2026, 8WD CyberRover X1)
   - 🏆 **2nd Prize** — BIT Sindri Technical Exhibition (April 2026, CyberRover X2 Environmental Recon)
   - 🏆 **3rd Prize** — BIT Sindri Technical Exhibition (June 2026, CyberRover X3 YOLO AI Vision & Voice)
-  - 🎖️ Presented at the regional science exhibition in Katras, Dhanbad ([Speech Transcript](documentation/exhibition/DHANBAD_EXHIBITION_SPEECH.md)).
-- **Development Chronicle**: Full 850+ hour technical history and iteration photographs documented in [`DEVELOPMENT_HISTORY.md`](DEVELOPMENT_HISTORY.md).
+  - 🎖️ Keynote demonstration at regional robotics exhibitions ([Speech Transcript](documentation/exhibition/DHANBAD_EXHIBITION_SPEECH.md)).
+- **Development Chronicle**: Full 850+ hour engineering history, **₹27,000–₹30,000+ total financial investment breakdown**, and generation photos documented in [`DEVELOPMENT_HISTORY.md`](DEVELOPMENT_HISTORY.md).
 - **Open Source Appreciation**: Grateful appreciation to the global Arduino, Espressif, ROS, and open-source robotics communities for developing foundational open hardware and libraries.

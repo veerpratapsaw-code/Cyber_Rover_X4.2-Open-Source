@@ -113,4 +113,8 @@ During the multi-month engineering and prototyping cycle (commencing October 202
 | **TOTAL ESTIMATED R&D CONSUMPTION** | | **> ₹5,000** |
 
 > [!IMPORTANT]
-> **FINANCIAL ACCOUNTING SEPARATION**: This ₹5,000+ development expense reflects learning, testing, and iteration costs. It is **NOT** included in the unit replication BOM for building a functional CyberRover X4.2 prototype.
+> **FINANCIAL ACCOUNTING SEPARATION**: This ₹5,000+ development expense reflects hands-on learning, testing, and iteration losses across earlier car iterations. It is **NOT** included in the unit replication BOM for building a functional CyberRover X4.2 prototype.
+> 
+> Furthermore, developing five generations over 1 year required acquiring dedicated workshop and lab equipment (temperature-controlled soldering station, digital multimeter, wire strippers, glue gun, drill bits, bench power equipment) worth **₹8,000 – ₹10,000 INR**.
+> 
+> When combining the active CyberRover X4 build value (**₹12,000+ INR**), hands-on R&D learning losses (**₹5,000+ INR**), and dedicated lab tools (**₹8,000 – ₹10,000 INR**), the creator personally invested **more than ₹27,000 to ₹30,000+ INR** over the last 1 year. For the full comparative financial breakdown, see [`COST_ESTIMATE.md`](COST_ESTIMATE.md).

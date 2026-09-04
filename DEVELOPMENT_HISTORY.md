@@ -4,7 +4,8 @@
 > **Lead Creator & Solo Architect**: **Veer Pratap Saw** ([Portfolio Website](https://veerpratapsaw.vercel.app/))  
 > **Key Collaborator (X2 – X3)**: **Om Ashutosh**  
 > **Total R&D Time Investment**: **850+ Hands-On Engineering Hours**  
-> **Milestone Accolades**: 🏆 2nd Prize School RoboFight | 🏆 2nd Prize BIT Sindri | 🏆 3rd Prize BIT Sindri  
+> **Total 1-Year Financial Investment**: **₹27,000 – ₹30,000+ INR** (₹12k+ Active Build + ₹5k+ Learning Losses + ₹8k–10k Lab Tools)  
+> **Milestone Accolades**: 🥇 **Gold Medal / 1st Prize** (School Exhibition) | 🏆 **2nd Prize** (School RoboFight) | 🏆 **2nd Prize** (BIT Sindri) | 🏆 **3rd Prize** (BIT Sindri)  
 
 ---
 
@@ -22,7 +23,7 @@ Oct 2025                 Jan 2026                 Apr 2026                Jun 20
   Failed 2D room scan;   8WD Combat car;          BIT Sindri 1st visit;   BIT Sindri 2nd visit;   Total redesign; 4WD 37GB;
   TB6612FNG + 4 TT;      Uno + S3 + 2x L298N;     Om Ashutosh joins;      YOLO AI Object Vision;  Dual 43A BTS7960; ESP-NOW
   Solo by Veer           🏆 2nd Prize RoboFight   MQ Gas Telemetry;       Laptop TTS Voice Alerts; Handheld Remote; Solo by Veer
-  (300+ Hours)           (Part of 300+ hrs)       🏆 2nd Prize BIT Sindri 🏆 3rd Prize BIT Sindri  🏆 Katras Exhibition / Open Source
+  (300+ Hours)           (Part of 300+ hrs)       🏆 2nd Prize BIT Sindri 🏆 3rd Prize BIT Sindri  🥇 GOLD MEDAL School Exhibition
                                                   (150+ Hours)            (100+ Hours)            (250+ hrs X4 + 50 hrs X4.2)
 ```
 
@@ -135,12 +136,15 @@ Despite multiple exhibition awards, thorough field trials revealed three critica
 
 ---
 
-### Phase 5: CyberRover X4.2 & Full Open-Source Release (August – September 2026)
+### Phase 5: CyberRover X4.2, Exhibition Gold Medal & Open-Source Release (August – September 2026)
 
-* **Refinement & Documentation**:
+* **School Exhibition Triumph**:
+  * Presented the fully completed **CyberRover X4** at the major School Science & Robotics Exhibition in Katras, Dhanbad.
+  * Demonstrated live zero-latency teleoperation, instant emergency braking, real-time gas hazard detection, and autonomous ultrasonic obstacle escape.
+  * **Accolade**: 🥇 **Won 1st Prize & the Gold Medal**!
+* **Refinement & Open-Source Documentation (X4.2)**:
   * Calibrated analog sensor voltage dividers and isolated the 5V/3.3V logic levels.
   * Developed the ground cockpit web dashboard with 6-channel Bézier oscilloscope telemetry.
-  * Successfully demonstrated at the regional science exhibition in Katras, Dhanbad.
   * Created the React 19 + Vite interactive showcase web application.
   * Authored complete open-source documentation: text-based `WIRING.md`, itemized `BOM.md`, transparent `COST_ESTIMATE.md`, and multi-license framework.
 * **Hours Invested**: **50+ Hours**.
@@ -148,7 +152,7 @@ Despite multiple exhibition awards, thorough field trials revealed three critica
 
 ---
 
-## ⏱️ Development Hours Accounting Summary
+## ⏱️ Development Hours & Accolades Summary
 
 | Milestone / Version | Timeline | Team Dynamics | Core Innovations | R&D Effort | Recognition |
 | :--- | :--- | :--- | :--- | :---: | :--- |
@@ -156,23 +160,54 @@ Despite multiple exhibition awards, thorough field trials revealed three critica
 | **CyberRover X1** | Oct 2025 – Jan 2026 | Veer Pratap Saw (Solo) | 8WD conversion, combat armor, Uno + ESP32-S3 + L298N | ~180 hrs | 🏆 **2nd Prize** (School RoboFight) |
 | **CyberRover X2** | Feb – Apr 2026 | Veer Pratap Saw & Om Ashutosh | MQ Gas sensors, telemetry to laptop, removed laggy Wi-Fi | 150+ hrs | 🏆 **2nd Prize** (BIT Sindri Exhibition) |
 | **CyberRover X3** | May – Jun 2026 | Veer Pratap Saw & Om Ashutosh | Smartphone YOLO AI vision, voice synthesis, auto sonar | 100+ hrs | 🏆 **3rd Prize** (BIT Sindri Exhibition) |
-| **CyberRover X4** | Jul – Aug 2026 | Veer Pratap Saw (Solo) | 4WD 37GB motors, dual 43A BTS7960, ESP-NOW remote HUD | 250+ hrs | Major Architectural Overhaul |
-| **CyberRover X4.2** | Aug – Sep 2026 | Veer Pratap Saw (Solo) | Open source release, telemetry cockpit, showcase web app | 50+ hrs | Katras, Dhanbad Exhibition |
-| **TOTAL** | **Oct 2025 – Sep 2026** | — | **5 Vehicle Generations** | **850+ Hours** | **3 Major Competition Honors** |
+| **CyberRover X4** | Jul – Aug 2026 | Veer Pratap Saw (Solo) | 4WD 37GB motors, dual 43A BTS7960, ESP-NOW remote HUD | 250+ hrs | 🥇 **1st Prize & Gold Medal** (School Exhibition) |
+| **CyberRover X4.2** | Aug – Sep 2026 | Veer Pratap Saw (Solo) | Open source release, telemetry cockpit, showcase web app | 50+ hrs | Katras, Dhanbad Public Release |
+| **TOTAL** | **Oct 2025 – Sep 2026** | — | **5 Vehicle Generations** | **850+ Hours** | **4 Major Competition Honors** |
 
 ---
 
-## 💸 Learning Curve & R&D Loss Accounting
+## 💸 Total Financial Investment & R&D Accounting (~₹27,000 – ₹30,000 INR)
 
 > [!IMPORTANT]
-> Prototyping advanced robotics with limited resources involves significant hands-on trial and error. The project owner reports that **more than ₹5,000 worth of components and materials were damaged, destroyed, or consumed** during the learning curve:
-> - Burned H-bridge MOSFETs and over-stressed motor drivers during rapid direction reversal testing
-> - Overvolted microcontrollers prior to installing resistive level shifting
-> - Burned MQ sensor heating filaments from unregulated voltage spikes
-> - Blown DC-DC buck converter modules and spent wiring harnesses
-> - Discarded prototype MDF cuts, cardboard battle armor, and motor mounting bracket iterations
->
-> In accordance with open-source engineering standards, this ₹5,000+ figure is documented as **R&D and Educational Iteration Expenditure** and is kept strictly separate from the unit replication BOM (~₹10,500).
+> Developing high-performance robotics indigenously requires significant real financial commitment. Over the course of the **1-year development cycle (October 2025 – September 2026)**, the creator personally invested **more than ₹27,000 to ₹30,000 INR** out of pocket across three distinct financial pillars:
+
+```
+┌──────────────────────────────────────────────────────────────────────────────────┐
+│                   CUMULATIVE 1-YEAR FINANCIAL INVESTMENT BREAKDOWN               │
+├────────────────────────────────────────────────────────┬─────────────────────────┤
+│ Financial Pillar                                       │ Amount (INR)            │
+├────────────────────────────────────────────────────────┼─────────────────────────┤
+│ 1. Current Active CyberRover X4.2 Build Value          │              ₹12,000+   │
+│ 2. Hands-On R&D, Prototype Iterations & Learning Losses│               ₹5,000+   │
+│ 3. Dedicated Lab Tools, Soldering & Workshop Equipment │       ₹8,000 - ₹10,000  │
+├────────────────────────────────────────────────────────┼─────────────────────────┤
+│ TOTAL CUMULATIVE 1-YEAR EXPENDITURE                    │     ₹27,000 - ₹30,000+  │
+│                                                        │      (~ $330 - $360 USD)│
+└────────────────────────────────────────────────────────┴─────────────────────────┘
+```
+
+### 1. Active CyberRover X4.2 Hardware Value (~₹12,000+ INR)
+* **Core Vehicle Electronics & Actuation**: 4x 37GB geared motors (₹1,600) + dual 43A BTS7960 drivers (₹800) + 4 microcontrollers (S3, Uno, Nano, CAM = ₹3,150) + full sensor suite (₹1,430) + 3S battery & buck converter (₹490) + wiring/fasteners (~₹300) = **₹7,530**.
+* **Handmade Handheld Remote Controller**: ESP32 DevKit + 0.96" OLED + dual 2-axis joysticks + SPDT toggle switches + pushbuttons + dedicated Li-ion pack = **₹1,550**.
+* **Structural Chassis, Fasteners & Hardware Overhead**: Custom multi-tier MDF chassis, brass standoffs, high-current XT30 connectors, traction rubber tires, battery balance charger, and smartphone mount = **~₹3,000+**.
+* **Total Active Build Cost**: **₹12,000+ INR**.
+
+### 2. Experimental Iteration & Learning Component Losses (~₹5,000+ INR)
+In robotics, hands-on learning involves destruction. Components consumed and burned during trial and error across the X1, X2, and X3 builds include:
+* Burned H-bridge MOSFETs and motor drivers during rapid forward-reverse stall current tests.
+* Overvolted ESP32 boards prior to implementing 1kΩ/2kΩ resistive voltage dividers.
+* Burned MQ gas sensor internal heating coils from unregulated voltage spikes.
+* Blown DC-DC step-down buck converters from thermal over-current.
+* Discarded prototype MDF cuts, wheel hub iterations, and cardboard armor shells.
+
+### 3. Dedicated Workshop Tools & Lab Infrastructure (~₹8,000 – ₹10,000 INR)
+To build, solder, calibrate, and troubleshoot 5 generations of rovers, the creator procured essential workshop equipment:
+* Temperature-controlled soldering station, solder wire, flux, and desoldering pump.
+* Digital multimeter with precision probes for voltage rail and current debugging.
+* Automatic wire strippers, flush cutters, pliers, and crimping tools.
+* High-power hot glue gun and industrial adhesive sticks.
+* Precision screwdriver bit sets, drill bits, hand saws, and sanding tools.
+* Bench power testing supply, breadboards, component organizers, and spare hardware kits.
 
 ---
 

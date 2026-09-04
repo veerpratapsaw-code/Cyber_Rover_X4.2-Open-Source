@@ -1,5 +1,5 @@
 # 🏆 CYBERROVER X — SCIENCE EXHIBITION WINNING STAGE SCRIPT
-### *5-to-7 Minute High-Impact Presentation & Live Demonstration for Judges*
+### *5-to-7 Minute High-Impact Presentation & Live Demonstration for Judges (🥇 1st Prize & Gold Medal Winner)*
 
 ---
 
@@ -8,7 +8,7 @@
 * **Target Time**: 5 to 7 Minutes (Leave 2–3 minutes for questions).
 * **Core Motto**: *"It is far better to sacrifice a robotic machine than to sacrifice a single human life."*
 * **Prototype Clarity**: Proudly introduce the rover as a **Functional Proof-of-Concept Prototype**, then present the production-scale **CyberRover X5** platform for industrial deployment.
-* **Deep Documentation Reference**: If judges ask for deep electrical schematics, pinouts, or battery formulas, point them directly to `EXPLANATION.md` and `ROVER_COMPLETE_WIRING_AND_ARCHITECTURE.md`.
+* **Deep Documentation Reference**: If judges ask for deep electrical schematics, pinouts, or battery formulas, point them directly to [`hardware/WIRING.md`](../../hardware/WIRING.md) and [`PROJECT_ARCHITECTURE.md`](../architecture/PROJECT_ARCHITECTURE.md).
 
 ---
 

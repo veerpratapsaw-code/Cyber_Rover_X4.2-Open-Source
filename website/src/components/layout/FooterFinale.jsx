@@ -451,6 +451,7 @@ export default function FooterFinale() {
                 EXHIBITION HONORS &amp; AWARDS
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', fontFamily: 'var(--font-mono)', fontSize: '0.6875rem', color: 'var(--text-primary)' }}>
+                <div>🥇 <strong>1st Prize &amp; Gold Medal</strong> · School Science &amp; Robotics Exhibition (Aug–Sep 2026, X4)</div>
                 <div>🏆 <strong>2nd Prize</strong> · School RoboFight Combat Tournament (Jan 2026, 8WD X1)</div>
                 <div>🏆 <strong>2nd Prize</strong> · BIT Sindri Technical Exhibition (Apr 2026, CyberRover X2)</div>
                 <div>🏆 <strong>3rd Prize</strong> · BIT Sindri Technical Exhibition (Jun 2026, X3 YOLO Vision)</div>
@@ -459,8 +460,8 @@ export default function FooterFinale() {
 
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px', marginBottom: '18px', fontFamily: 'var(--font-mono)', fontSize: '0.75rem' }}>
               <div style={{ padding: '8px 10px', background: 'rgba(255,255,255,0.03)', borderRadius: 'var(--radius-xs)', border: '1px solid var(--border-subtle)' }}>
-                <div style={{ color: 'var(--text-muted)', fontSize: '0.5625rem' }}>R&amp;D INVESTMENT</div>
-                <div style={{ color: 'var(--status-nominal)', fontWeight: 600 }}>850+ Total Hours</div>
+                <div style={{ color: 'var(--text-muted)', fontSize: '0.5625rem' }}>R&amp;D EFFORT &amp; SPEND</div>
+                <div style={{ color: 'var(--status-nominal)', fontWeight: 600 }}>850+ Hrs · ₹27k–30k+</div>
               </div>
               <div style={{ padding: '8px 10px', background: 'rgba(255,255,255,0.03)', borderRadius: 'var(--radius-xs)', border: '1px solid var(--border-subtle)' }}>
                 <div style={{ color: 'var(--text-muted)', fontSize: '0.5625rem' }}>LAB LOCATION</div>

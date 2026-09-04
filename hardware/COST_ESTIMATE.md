@@ -1,6 +1,10 @@
 # 💰 CyberRover X4.2 — Cost Analysis & Build Financials
 
-This document presents the financial breakdown for the **CyberRover X4.2** project, contrasting the **as-built historical prototype (5 MCUs)** against the **optimized minimal budget build (3 ESP32s)**, while maintaining strict accounting separation for R&D iteration losses.
+This document presents the complete financial breakdown for the **CyberRover X4.2** project, providing full transparency across three distinct areas:
+1. **As-Built Prototype Build Cost (~₹12,000+)** vs. **Optimized Minimal Budget Build (~₹6,000 – ₹6,500)**
+2. **Component R&D & Learning Losses (~₹5,000+)**
+3. **Dedicated Workshop Tools & Lab Infrastructure (~₹8,000 – ₹10,000)**
+4. **Cumulative 1-Year Personal Investment (~₹27,000 – ₹30,000+ INR)**
 
 ---
 
@@ -8,31 +12,27 @@ This document presents the financial breakdown for the **CyberRover X4.2** proje
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────────┐
-│                             PROJECT FINANCIAL SUMMARY                            │
-├──────────────────────────────────────┬─────────────────────┬─────────────────────┤
-│ Component Category                   │ Historical Prototype│ Minimal Budget Build│
-│                                      │ (5-MCU Architecture)│ (3-ESP32 Architect.)│
-├──────────────────────────────────────┼─────────────────────┼─────────────────────┤
-│ Microcontrollers (All Nodes)         │             ₹3,700  │             ₹1,650  │
-│ Motive Drive & Motors                │             ₹2,400  │             ₹2,400  │
-│ Sensor Array (Gas, Sonar, Climate)   │             ₹1,430  │             ₹1,010  │
-│ Power Conversion & Battery           │               ₹490  │               ₹450  │
-│ Remote Controls & HUD Display        │             ₹1,000  │               ₹650  │
-│ Displays & Sound (16x2 LCD + Buzzer) │               ₹350  │                ₹50  │
-│ Wiring, Fasteners & Chassis          │             ₹1,130  │               ₹600  │
-├──────────────────────────────────────┼─────────────────────┼─────────────────────┤
-│ ESTIMATED TOTAL BUILD COST           │  ~ ₹10,000 - 11,000 │   ~ ₹6,000 - 6,800  │
-│                                      │     (~ $125 USD)    │      (~ $75 USD)    │
-├──────────────────────────────────────┼─────────────────────┼─────────────────────┤
-│ Historical R&D / Iteration Loss      │            > ₹5,000 │                 N/A │
-└──────────────────────────────────────┴─────────────────────┴─────────────────────┘
+│                   TOTAL 1-YEAR FINANCIAL INVESTMENT SUMMARY                      │
+├────────────────────────────────────────────────────────┬─────────────────────────┤
+│ Financial Pillar                                       │ Amount (INR)            │
+├────────────────────────────────────────────────────────┼─────────────────────────┤
+│ 1. Current Active CyberRover X4.2 Build Value          │              ₹12,000+   │
+│ 2. Hands-On R&D, Prototype Iterations & Learning Losses│               ₹5,000+   │
+│ 3. Dedicated Lab Tools, Soldering & Workshop Equipment │       ₹8,000 - ₹10,000  │
+├────────────────────────────────────────────────────────┼─────────────────────────┤
+│ TOTAL CUMULATIVE 1-YEAR EXPENDITURE                    │     ₹27,000 - ₹30,000+  │
+│                                                        │      (~ $330 - $360 USD)│
+├────────────────────────────────────────────────────────┼─────────────────────────┤
+│ OPTIMIZED MINIMAL REPLICATION BUILD (3-ESP32)          │       ~ ₹6,000 - ₹6,500 │
+│                                                        │          (~ $75 USD)    │
+└────────────────────────────────────────────────────────┴─────────────────────────┘
 ```
 
 ---
 
 ## 1. Direct Prototype Build Cost (As Built — 5-MCU Topology)
 
-The physical prototype was constructed using available spare microcontrollers accumulated from earlier project iterations (School RoboFight & BIT Sindri exhibitions):
+The physical prototype was constructed using available spare microcontrollers accumulated from earlier project iterations (School RoboFight & BIT Sindri exhibitions). The total active hardware value exceeds **₹12,000 INR**:
 
 ### A. Core Rover Hardware (₹7,530)
 | Category | Identified Items | Subtotal (₹) |
@@ -51,12 +51,13 @@ The physical prototype was constructed using available spare microcontrollers ac
 | **Switches & Buttons** | Tactile pushbuttons & toggle switches | ₹200 |
 | **Remote Battery** | Dedicated Li-ion power pack | ₹200 |
 
-### C. Estimated Structural & Hardware Overhead (~₹1,200)
+### C. Structural, Fasteners & Mechanical Hardware Overhead (~₹3,000+)
 - Multi-tier MDF chassis plates and motor bracketry
 - High-current XT30 power connectors and heavy gauge battery wiring
-- M3/M4 machine screws, locknuts, brass standoffs, and traction tires
+- M3/M4 machine screws, locknuts, brass standoffs, and rubber traction tires
+- Dedicated 3S Li-ion balance charger and smartphone mount
 
-**Historical Prototype Build Cost**: **~ ₹10,500 INR (~$125 USD)**.
+**Total Active Prototype Build Value**: **₹12,000+ INR**.
 
 ---
 
@@ -82,18 +83,29 @@ The physical prototype was constructed using available spare microcontrollers ac
 
 ---
 
-## 3. Research, Development & Iteration Expenditure
+## 3. Total Financial Investment Breakdown (~₹27,000 – ₹30,000 INR)
 
-> [!IMPORTANT]
-> **SEPARATION OF R&D LOSSES**: In student and hobbyist robotics projects, component destruction during prototyping is normal. However, accounting standards require that burned components NOT be amortized into the unit BOM.
+Developing advanced robotics indigenously requires real capital commitment. Over the **1-year development cycle (October 2025 – September 2026)**, the creator personally invested **over ₹27,000 to ₹30,000 INR**:
 
-During the development journey starting in October 2025 across 5 generations, the project architect incurred **over ₹5,000 in material losses**:
-- **High-Current Driver Burnouts**: Early motor tests without proper current limiting and back-EMF protection caused driver MOSFET failure.
-- **Logic Level Discrepancies**: Accidental 5V direct connection to 3.3V-only ESP32 and ESP32-CAM pins damaged early development boards before the 1kΩ/2kΩ voltage dividers and isolated buses were finalized.
-- **Sensor Element Degradation**: MQ-series sensors require sustained heating coils (consuming ~160mA each). Overvolting during power-rail experimentation burned heating filaments.
-- **Chassis Iterations**: Multiple cuts across 4WD and 8WD platforms were discarded due to wheel clearance, weight distribution, and motor bracket alignment redesigns.
+### A. Active Prototype Hardware (~₹12,000+ INR)
+* The fully functional CyberRover X4.2 vehicle, custom handmade remote controller, batteries, and chargers.
 
-**Total R&D and Learning Loss**: **> ₹5,000 INR**.
+### B. Learning Losses & Iteration Consumption (~₹5,000+ INR)
+In student robotics, learning involves failure and component destruction:
+* Burned H-bridge MOSFETs and motor drivers during stall current and rapid direction reversal tests.
+* Overvolted ESP32 boards prior to implementing 1kΩ/2kΩ resistive voltage dividers.
+* Burned MQ sensor internal heating filaments from unregulated voltage spikes.
+* Blown DC-DC step-down buck converters from thermal over-current.
+* Discarded MDF prototype chassis cuts, wheel hub iterations, and cardboard battle armor shells.
+
+### C. Dedicated Workshop Tools & Lab Infrastructure (~₹8,000 – ₹10,000 INR)
+To construct, solder, measure, and assemble five vehicle generations, the creator acquired essential lab tooling:
+* Temperature-controlled soldering station, solder wire, flux, and desoldering pump.
+* Digital multimeter with precision probes for voltage rail and current debugging.
+* Automatic wire strippers, flush cutters, pliers, and crimping tools.
+* High-power hot glue gun and industrial adhesive sticks.
+* Precision screwdriver bit sets, drill bits, hand saws, and sanding tools.
+* Bench power testing equipment, breadboards, component organizers, and spare hardware kits.
 
 ---
 
@@ -102,5 +114,6 @@ During the development journey starting in October 2025 across 5 generations, th
 | Platform Type | Platform Architecture | Estimated Cost (INR) | Estimated Cost (USD) | Accessibility |
 | :--- | :--- | :---: | :---: | :--- |
 | **Commercial Inspection Rover** | Proprietary Industrial Casing, Custom PCBs | ₹2,50,000 – ₹10,00,000+ | $3,000 – $12,000+ | Very Low (Industry only) |
-| **CyberRover X4.2 (Prototype)** | 5-MCU Distributed Topology (S3 + Uno + Nano + CAM + Remote) | ~ ₹10,500 | ~ $125 | High (Open Hardware) |
+| **CyberRover X4.2 (Prototype)** | 5-MCU Distributed Topology (S3 + Uno + Nano + CAM + Remote) | ~ ₹12,000+ | ~ $145 | High (Open Hardware) |
 | **CyberRover (Minimal Budget)** | **3-ESP32 Optimized Topology** (Remote + Rover Core + CAM) | **~ ₹6,000 – ₹6,500** | **~ $75** | **Maximum (Student/Maker friendly)** |
+| **Total 1-Year R&D Investment** | All prototypes + burned parts + workshop tooling | ~ ₹27,000 – ₹30,000 | ~ $330 – $360 | Complete 1-Year Journey |

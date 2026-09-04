@@ -37,7 +37,7 @@ The following root and subsystem documentation files were authored to complete o
 - **Root Governance & Overview**:
   - `README.md`: Comprehensive master project documentation.
   - `CURRENT_STATUS.md`: Detailed prototype status classification (Demonstrated, Planned, Future) and non-claims.
-  - `DEVELOPMENT_HISTORY.md`: Complete authentic 5-generation journey (4WD room scan, X1 RoboFight 2nd prize, X2 BIT Sindri 2nd prize, X3 YOLO AI 3rd prize, to X4/X4.2), 850+ hour R&D breakdown, and Om Ashutosh collaboration.
+  - `DEVELOPMENT_HISTORY.md`: Complete authentic 5-generation journey (4WD room scan, X1 RoboFight 2nd prize, X2 BIT Sindri 2nd prize, X3 YOLO AI 3rd prize, to X4 School Exhibition 1st Prize Gold Medal & X4.2), 850+ hour R&D breakdown, ₹27k–₹30k+ 1-year personal investment accounting, and Om Ashutosh collaboration.
   - `ROADMAP.md`: Release roadmap across X4.x iterations and conceptual X5 horizon.
   - `CHANGELOG.md`: Chronological record of release versions (v4.0 through v4.2).
   - `THIRD_PARTY.md`: Comprehensive attribution for Arduino libraries, npm packages, and licenses.
@@ -51,7 +51,7 @@ The following root and subsystem documentation files were authored to complete o
 
 - **Hardware Documentation (`hardware/`)**:
   - `hardware/BOM.md`: Itemized vehicle electronics BOM with verified unit costs and separate R&D accounting.
-  - `hardware/COST_ESTIMATE.md`: Transparent build financials (~₹10,500 build vs >₹5,000 learning loss).
+  - `hardware/COST_ESTIMATE.md`: Transparent build financials (₹12k+ active build, ₹5k+ learning loss, ₹8k–₹10k lab tools, totaling ₹27k–₹30k+ vs ~₹6,000–₹6,500 budget build).
   - `hardware/HARDWARE_OVERVIEW.md`: Detailed multi-MCU distributed system guide.
   - `hardware/POWER_SYSTEM.md`: Battery sizing, electrical load breakdown, and voltage sag analysis.
   - `hardware/MECHANICAL_DESIGN.md`: MDF chassis tiers, drive geometry, and tire traction notes.
@@ -169,11 +169,13 @@ To maintain a clean, lightweight, and professional open-source repository withou
 
 ## 7. Cost Status
 
-- **Status**: **Fully calculated and separated.**
+- **Status**: **Fully calculated, itemized, and transparently segmented across 3 financial pillars.**
 - Located at [`hardware/COST_ESTIMATE.md`](hardware/COST_ESTIMATE.md).
-- **Current Prototype Replication Cost (5-MCU)**: ~₹10,500 INR (~$125 USD).
-- **Optimized Minimal Budget Replication Cost (3-ESP32)**: **~₹6,000 to ₹6,500 INR (~$75 USD)**.
-- **R&D / Learning Losses**: Documented separately as **>₹5,000 INR** (burned motor drivers, overvolted boards, destroyed sensor coils, scrap stock). Explicitly separated from the unit replication BOM.
+- **Current Active Prototype Build Value (5-MCU)**: **₹12,000+ INR** (~$145 USD) for the complete active vehicle, 5 microcontrollers, sensors, handmade remote, 3S battery, and balance charger.
+- **R&D / Learning Losses Across 5 Iterations**: **₹5,000+ INR** (burned motor drivers, overvolted ESP32s, fried MQ sensor heater filaments, destroyed buck converters, discarded scrap MDF and armor cuts). Explicitly separated from the unit replication BOM.
+- **Dedicated Workshop Tools & Lab Infrastructure**: **₹8,000 – ₹10,000 INR** (temperature-controlled soldering station, digital multimeter, wire strippers, glue gun, precision drill bits, bench power equipment).
+- **Total Cumulative 1-Year Personal Investment**: **₹27,000 – ₹30,000+ INR** (~$330 – $360 USD) invested out of pocket by the creator over 1 year (October 2025 – September 2026).
+- **Optimized Minimal Budget Replication Cost (3-ESP32)**: **~₹6,000 to ₹6,500 INR (~$75 USD)**, achieved by consolidating from 5 MCUs down to 3 ESP32s (>55% MCU cost reduction) and omitting redundant local displays.
 
 ---
 
