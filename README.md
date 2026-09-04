@@ -273,7 +273,8 @@ CYBERROVER-X4/
 
 ## 📦 Bill of Materials (BOM)
 
-A concise summary of the functional vehicle electronics:
+### A. As-Built Functional Prototype (5-MCU Architecture)
+The physical prototype utilized microcontrollers on hand from earlier project iterations:
 
 | Component | Qty | Unit Price (₹) | Total (₹) | Role |
 | :--- | :---: | :---: | :---: | :--- |
@@ -292,30 +293,48 @@ A concise summary of the functional vehicle electronics:
 | **3S Li-ion Battery Pack** | 1 | ₹350 | ₹350 | Rover high-current motive supply |
 | **DC-DC Step-Down Buck** | 1 | ₹140 | ₹140 | 5.0V regulated logic power rail |
 | **Jumper Wires & Wiring** | 1 Lot | ~₹300 | ₹300 | Interconnects and power leads |
-| **VEHICLE ELECTRONICS SUBTOTAL** | | | **₹7,530** | |
+| **VEHICLE ELECTRONICS SUBTOTAL** | | | **₹7,530** | *(Total Prototype MCUs: ₹3,700)* |
 
-For the full breakdown including remote controller items and mechanical hardware, see [`hardware/BOM.md`](hardware/BOM.md).
+### B. 💡 Optimized Minimal Budget Build (3-ESP32 Architecture)
+> [!TIP]
+> **HOW TO BUILD THIS FOR LESS THAN HALF THE MCU COST:**  
+> If replicating this project on a budget, you **do not need 5 microcontrollers**. You can build the entire vehicle and remote using **only 3 ESP32 boards**:
+> 1. **ESP32 #1 (Handheld Remote)**: ESP-NOW master & OLED HUD (~₹500).
+> 2. **ESP32 #2 (Rover Core)**: Replaces BOTH the ESP32-S3 and Arduino Uno (~₹500). Directly drives dual BTS7960 PWM and reads 3x sonar sensors with zero UART latency.
+> 3. **ESP32 #3 (Telemetry & Gas)**: ESP32-CAM module replacing the Arduino Nano (~₹650). Directly samples analog gas voltages and broadcasts Wi-Fi telemetry and video.
+> - **Omit 16x2 LCD**: Live telemetry is already visible on the Remote OLED HUD and laptop cockpit (saves ₹300).
+> - **Total Microcontroller Cost**: Drops from **₹3,700 to ~₹1,650 (less than half!)**.
+> - **Total Complete Replication Cost**: Drops from **~₹10,500 down to ~₹6,000 – ₹6,500**!
+
+For the detailed component itemization and remote controller breakdown, see [`hardware/BOM.md`](hardware/BOM.md).
 
 ---
 
 ## 💰 Cost & Financials
 
 ```
-┌────────────────────────────────────────────────────────┐
-│               PROTOTYPE FINANCIAL OVERVIEW             │
-├───────────────────────────────────┬────────────────────┤
-│ Functional Vehicle Electronics    │             ₹7,530 │
-│ Handheld Remote Electronics       │             ₹1,550 │
-│ Estimated Structural Hardware     │            ~₹1,200 │
-├───────────────────────────────────┼────────────────────┤
-│ UNIT REPLICATION BUILD COST       │   ~₹10,000 - 11,000│
-├───────────────────────────────────┼────────────────────┤
-│ Separate R&D / Learning Loss      │           > ₹5,000 │
-└───────────────────────────────────┴────────────────────┘
+┌────────────────────────────────────────────────────────────────────────┐
+│                        BUILD FINANCIAL COMPARISON                      │
+├───────────────────────────────────┬──────────────────┬─────────────────┤
+│ Component Category                │ Prototype (5-MCU)│ Budget (3-ESP32)│
+├───────────────────────────────────┼──────────────────┼─────────────────┤
+│ Microcontrollers (All Nodes)      │          ₹3,700  │         ₹1,650  │
+│ Motive Drive & Motors             │          ₹2,400  │         ₹2,400  │
+│ Sensors Suite                     │          ₹1,430  │         ₹1,010  │
+│ Power Conversion & Battery        │            ₹490  │           ₹450  │
+│ Remote Controls & Display         │          ₹1,000  │           ₹650  │
+│ Displays & Sound                  │            ₹350  │            ₹50  │
+│ Wiring, Fasteners & Chassis       │          ₹1,130  │           ₹600  │
+├───────────────────────────────────┼──────────────────┼─────────────────┤
+│ COMPLETE UNIT REPLICATION COST    │ ~₹10,000 - 11,000│ ~₹6,000 - 6,500 │
+│                                   │    (~ $125 USD)  │    (~ $75 USD)  │
+├───────────────────────────────────┼──────────────────┼─────────────────┤
+│ Separate Historical R&D Loss      │         > ₹5,000 │             N/A │
+└───────────────────────────────────┴──────────────────┴─────────────────┘
 ```
 
 > [!IMPORTANT]
-> The project owner incurred **over ₹5,000 in material losses** during hands-on learning (burned motor drivers, overvolted microcontrollers, damaged sensor heating coils, and scrap chassis cuts). In accordance with accounting best practices, this is documented separately and is **NOT** added to the unit replication BOM. See [`hardware/COST_ESTIMATE.md`](hardware/COST_ESTIMATE.md).
+> The project owner incurred **over ₹5,000 in material losses** during hands-on learning across 5 generations (burned motor drivers, overvolted microcontrollers, damaged sensor heating coils, and scrap chassis cuts). In accordance with open-source accounting standards, this is documented separately and is **NOT** added to the unit replication BOM. See [`hardware/COST_ESTIMATE.md`](hardware/COST_ESTIMATE.md).
 
 ---
 

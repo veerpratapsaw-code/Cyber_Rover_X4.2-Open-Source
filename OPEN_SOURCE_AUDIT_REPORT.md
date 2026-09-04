@@ -156,9 +156,12 @@ To maintain a clean, lightweight, and professional open-source repository withou
 
 ## 6. BOM Status
 
-- **Status**: **Complete, itemized, and verified.**
+- **Status**: **Complete, itemized, dual-architecture verified.**
 - Located at [`hardware/BOM.md`](hardware/BOM.md).
 - Reflects the real functional prototype hardware using verified component pricing (e.g., Motors ₹400, BTS7960 ₹400, ESP32-S3 ₹1,600, Uno ₹450, Nano ₹250, ESP32-CAM ₹850, MQ sensors ₹200).
+- **Dual BOM Availability**:
+  - **As-Built Prototype BOM (5-MCU)**: Total vehicle electronics ₹7,530 (microcontrollers total ₹3,700).
+  - **Optimized Minimal Budget BOM (3-ESP32)**: Prunes redundant components; reduces microcontroller count from 5 to 3 (ESP32 Remote + ESP32 Rover Core + ESP32-CAM Telemetry), slashing microcontroller expenditure from **₹3,700 down to ₹1,650 (>55% savings)**.
 - Handheld remote controller electronics itemized at high level; full manufacturing manual intentionally deferred.
 - Clear separation between Core Rover BOM, Supporting Hardware, and Experimental Losses.
 
@@ -168,7 +171,8 @@ To maintain a clean, lightweight, and professional open-source repository withou
 
 - **Status**: **Fully calculated and separated.**
 - Located at [`hardware/COST_ESTIMATE.md`](hardware/COST_ESTIMATE.md).
-- **Current Prototype Replication Cost**: ~₹10,500 INR (~$125 USD).
+- **Current Prototype Replication Cost (5-MCU)**: ~₹10,500 INR (~$125 USD).
+- **Optimized Minimal Budget Replication Cost (3-ESP32)**: **~₹6,000 to ₹6,500 INR (~$75 USD)**.
 - **R&D / Learning Losses**: Documented separately as **>₹5,000 INR** (burned motor drivers, overvolted boards, destroyed sensor coils, scrap stock). Explicitly separated from the unit replication BOM.
 
 ---
