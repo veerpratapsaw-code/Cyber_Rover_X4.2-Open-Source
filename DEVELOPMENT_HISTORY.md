@@ -1,6 +1,6 @@
 # 📜 CyberRover X4.2 — Development History & Engineering Evolution
 
-The **CyberRover** initiative originated in **September 2025** in Hazaribagh, Jharkhand, India. Inspired by hazardous coal mining conditions and industrial confined-space dangers, the goal was to engineer a low-cost, open-source multi-controller reconnaissance platform that could enter hazardous spaces ahead of human personnel.
+The **CyberRover** initiative originated in **September 2025** in Katras, Dhanbad, Jharkhand, India. Inspired by hazardous coal mining conditions and industrial confined-space dangers, the goal was to engineer a low-cost, open-source multi-controller reconnaissance platform that could enter hazardous spaces ahead of human personnel.
 
 ---
 
@@ -44,7 +44,7 @@ Sep 2025               Nov 2025               Jan 2026               May 2026   
 
 ### Phase 5: Ground Dashboard, Exhibition Success & X4.2 Release (July – September 2026)
 - **Cockpit Dashboard**: Created a browser-based ground cockpit station featuring live danger badges and 6-channel Bézier oscilloscope telemetry graphing.
-- **Hazaribagh Exhibition**: Presented CyberRover at the regional science exhibition in Jharkhand, winning top honors with the presentation speech and display posters.
+- **Dhanbad Exhibition**: Presented CyberRover at the regional science exhibition in Katras, Dhanbad, winning top honors with the presentation speech and display posters.
 - **Showcase Website**: Developed the interactive React + Vite demonstration platform ([https://cyber-rover-x4.vercel.app/](https://cyber-rover-x4.vercel.app/)).
 - **GitHub Preparation**: Consolidated all firmware, hardware manuals, text wiring references, and authentic media into a clean open-source release.
 

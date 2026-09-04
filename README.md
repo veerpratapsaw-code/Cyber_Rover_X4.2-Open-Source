@@ -51,7 +51,7 @@
 
 ## 🔭 Overview
 
-The **CyberRover X4.2** is an open-source, multi-microcontroller ground robotics platform designed for remote environmental inspection, hazardous-area surveying, and disaster simulation. Developed in Hazaribagh, Jharkhand, India, the project demonstrates how low-cost commercial off-the-shelf (COTS) electronics—microcontrollers, metal-oxide gas sensors, ultrasonic transceivers, and an ergonomic handmade handheld controller—can be orchestrated into an effective, distributed teleoperation platform.
+The **CyberRover X4.2** is an open-source, multi-microcontroller ground robotics platform designed for remote environmental inspection, hazardous-area surveying, and disaster simulation. Developed in Katras, Dhanbad, Jharkhand, India, the project demonstrates how low-cost commercial off-the-shelf (COTS) electronics—microcontrollers, metal-oxide gas sensors, ultrasonic transceivers, and an ergonomic handmade handheld controller—can be orchestrated into an effective, distributed teleoperation platform.
 
 ---
 
@@ -398,6 +398,6 @@ See [`LICENSE.md`](LICENSE.md) and [`THIRD_PARTY.md`](THIRD_PARTY.md) for full d
 
 ## 🙏 Acknowledgements
 
-- Developed by the robotics engineering team in **Hazaribagh, Jharkhand, India**.
-- Winning project presented at the regional science exhibition ([Speech Transcript](documentation/exhibition/HAZARIBAGH_EXHIBITION_WINNING_SPEECH.md)).
+- Developed by the robotics engineering team in **Katras, Dhanbad, Jharkhand, India**.
+- Presented at the regional science exhibition in Katras, Dhanbad ([Speech Transcript](documentation/exhibition/DHANBAD_EXHIBITION_SPEECH.md)).
 - Grateful appreciation to the global Arduino, Espressif, and open-source robotics communities for developing foundational open hardware and libraries.

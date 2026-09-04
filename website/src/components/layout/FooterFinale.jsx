@@ -448,7 +448,7 @@ export default function FooterFinale() {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '20px', fontFamily: 'var(--font-mono)', fontSize: '0.75rem' }}>
               <div style={{ padding: '10px', background: 'rgba(255,255,255,0.03)', borderRadius: 'var(--radius-xs)', border: '1px solid var(--border-subtle)' }}>
                 <div style={{ color: 'var(--text-muted)', fontSize: '0.625rem' }}>RESEARCH LAB</div>
-                <div style={{ color: 'var(--text-primary)', fontWeight: 600 }}>RBOTICS | Hazaribagh</div>
+                <div style={{ color: 'var(--text-primary)', fontWeight: 600 }}>RBOTICS | Katras, Dhanbad</div>
               </div>
               <div style={{ padding: '10px', background: 'rgba(255,255,255,0.03)', borderRadius: 'var(--radius-xs)', border: '1px solid var(--border-subtle)' }}>
                 <div style={{ color: 'var(--text-muted)', fontSize: '0.625rem' }}>HARDWARE PROTOTYPE</div>

@@ -18,4 +18,4 @@ Contains 9 high-resolution presentation panels (`poster_panel_01.png` through `p
 - [`part-2.pdf`](handouts/part-2.pdf) & [`part-2_alt.pdf`](handouts/part-2_alt.pdf): Electrical specifications, sensor descriptions, and subsystem breakdowns.
 
 ### 3. Exhibition Speech
-- [`HAZARIBAGH_EXHIBITION_WINNING_SPEECH.md`](HAZARIBAGH_EXHIBITION_WINNING_SPEECH.md): Complete verbatim transcript of the project presentation delivered by the team in Hazaribagh, Jharkhand, India.
+- [`DHANBAD_EXHIBITION_SPEECH.md`](DHANBAD_EXHIBITION_SPEECH.md): Complete verbatim transcript of the project presentation delivered by the team in Katras, Dhanbad, Jharkhand, India.

@@ -4,7 +4,7 @@
 ![CyberRover X5 Final Design](CYBERROVER_X5_FINAL_DESIGN.jpg)
 
 **Project:** CyberRover X5 Deep Recon Edition  
-**Team:** RBOTICS | Hazaribagh, Jharkhand, India  
+**Team:** RBOTICS | Katras, Dhanbad, Jharkhand, India  
 **Predecessor:** CyberRover X4.2 (Current Working Prototype)  
 **Target Build:** 2026–2028  
 
@@ -1015,7 +1015,7 @@ Depth watchdog:
 │  BUDGET:        ₹3.9L – ₹6.3L                            │
 │  BUILD TIME:    20–24 months                               │
 │                                                             │
-│  DESIGNED BY:   RBOTICS Team, Hazaribagh, India           │
+│  DESIGNED BY:   RBOTICS Team, Katras, Dhanbad, India       │
 │  YEAR:          2026–2028                                  │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
@@ -1029,4 +1029,4 @@ Depth watchdog:
 
 ---
 
-**© 2026 RBOTICS Team | CyberRover Project | Hazaribagh, Jharkhand, India**
+**© 2026 RBOTICS Team | CyberRover Project | Katras, Dhanbad, Jharkhand, India**

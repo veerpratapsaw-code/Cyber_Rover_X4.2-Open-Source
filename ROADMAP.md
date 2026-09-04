@@ -35,7 +35,7 @@ This roadmap outlines the past milestones achieved by the **CyberRover X4.2** pr
 - [x] 2.4 GHz ESP-NOW sub-30ms wireless command link
 - [x] Cyber OS embedded operating system with SSD1306 OLED HUD
 - [x] Live browser-based ground cockpit dashboard with Bézier oscilloscope curves
-- [x] Successful exhibition presentation in Hazaribagh, Jharkhand
+- [x] Successful exhibition presentation in Katras, Dhanbad, Jharkhand
 - [x] Interactive showcase web application on React + Vite
 
 ---

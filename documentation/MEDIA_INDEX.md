@@ -54,4 +54,4 @@ The handheld remote controller is an authentic handmade prototype constructed wi
 | :--- | :---: | :--- |
 | [`posters/poster_panel_01.png` to `09.png`](../documentation/exhibition/posters/) | PNGs | High-resolution presentation poster panels displayed during project exhibitions. |
 | [`handouts/part-1.pdf` & `part-2.pdf`](../documentation/exhibition/handouts/) | PDFs | Official project handouts and technical summary brochures. |
-| [`HAZARIBAGH_EXHIBITION_WINNING_SPEECH.md`](../documentation/exhibition/HAZARIBAGH_EXHIBITION_WINNING_SPEECH.md) | Markdown | Authentic transcript of the winning presentation speech delivered at the regional science exhibition. |
+| [`DHANBAD_EXHIBITION_SPEECH.md`](../documentation/exhibition/DHANBAD_EXHIBITION_SPEECH.md) | Markdown | Authentic transcript of the winning presentation speech delivered at the regional science exhibition in Katras, Dhanbad. |
