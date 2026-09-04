@@ -1,0 +1,23 @@
+CYBERROVER X4.2 MULTI-LICENSE SUMMARY
+
+The CyberRover X4.2 repository is distributed under a multi-licensing model:
+
+1. SOFTWARE & FIRMWARE:
+   All original software, firmware, web application code, and scripts are licensed
+   under the MIT License.
+   See LICENSES/MIT.txt for full terms.
+
+2. HARDWARE DESIGNS & SCHEMATICS:
+   All original hardware documentation, mechanical layouts, pinouts, and wiring
+   specifications are licensed under the CERN Open Hardware Licence Version 2 -
+   Strongly Reciprocal (CERN-OHL-S-2.0).
+   See LICENSES/CERN-OHL-S-2.0.txt for full terms.
+
+3. DOCUMENTATION, MEDIA & PRESENTATION:
+   All documentation, text guides, and non-third-party photographic assets are
+   licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+   See LICENSES/CC-BY-4.0.txt for full terms.
+
+THIRD-PARTY COMPONENTS & LIBRARIES:
+Third-party libraries (e.g. Arduino libraries, npm packages, BearSSL, Adafruit
+libraries) retain their respective upstream copyright and licenses. See THIRD_PARTY.md.
