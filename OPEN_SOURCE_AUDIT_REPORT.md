@@ -37,7 +37,7 @@ The following root and subsystem documentation files were authored to complete o
 - **Root Governance & Overview**:
   - `README.md`: Comprehensive master project documentation.
   - `CURRENT_STATUS.md`: Detailed prototype status classification (Demonstrated, Planned, Future) and non-claims.
-  - `DEVELOPMENT_HISTORY.md`: Origin story (Katras, Dhanbad — Sept 2025), evolution phases, and learning loss documentation.
+  - `DEVELOPMENT_HISTORY.md`: Complete authentic 5-generation journey (4WD room scan, X1 RoboFight 2nd prize, X2 BIT Sindri 2nd prize, X3 YOLO AI 3rd prize, to X4/X4.2), 850+ hour R&D breakdown, and Om Ashutosh collaboration.
   - `ROADMAP.md`: Release roadmap across X4.x iterations and conceptual X5 horizon.
   - `CHANGELOG.md`: Chronological record of release versions (v4.0 through v4.2).
   - `THIRD_PARTY.md`: Comprehensive attribution for Arduino libraries, npm packages, and licenses.
@@ -120,6 +120,11 @@ All unclassified, UUID-named, or legacy assets were renamed into clear, professi
 | `printing cyber rover x4/poster/1.png` to `9.png`| `poster_panel_01.png` to `09.png` | `documentation/exhibition/posters/` | 9-panel exhibition series |
 | `printing cyber rover x4/part-1.pdf` | `part-1.pdf` & `part-1_alt.pdf` | `documentation/exhibition/handouts/` | Printable brochure part 1 |
 | `printing cyber rover x4/part-2.pdf` | `part-2.pdf` & `part-2_alt.pdf` | `documentation/exhibition/handouts/` | Printable brochure part 2 |
+| `evolution/photo-1` | `cyberrover_evolution_01_4wd_tb6612fng_prototype.jpg` | `media/prototypes/` | Original 4WD prototype with dual TB6612FNG drivers and 4 TT motors |
+| `evolution/photo-2` | `cyberrover_evolution_02_8wd_chassis_internal.jpg` | `media/prototypes/` | 8WD combat chassis internal layout with 3S 40A BMS |
+| `evolution/photo-3` | `cyberrover_evolution_03_x1_robofight_battle_chassis.jpg` | `media/prototypes/` | CyberRover X1 armored shell with battle wedge (🏆 2nd Prize School RoboFight) |
+| `evolution/photo-4` | `cyberrover_evolution_04_x2_bit_sindri_exhibition.jpg` | `media/prototypes/` | CyberRover X2 environmental recon build at BIT Sindri (🏆 2nd Prize) |
+| `evolution/photo-5` | `cyberrover_evolution_05_x3_yolo_ai_phone_mount.jpg` | `media/prototypes/` | CyberRover X3 YOLO AI object detection & voice synthesis at BIT Sindri (🏆 3rd Prize) |
 
 ---
 

@@ -39,6 +39,11 @@ The handheld remote controller is an authentic handmade prototype constructed wi
 
 | File | Type | Description |
 | :--- | :---: | :--- |
+| [`cyberrover_evolution_01_4wd_tb6612fng_prototype.jpg`](../media/prototypes/cyberrover_evolution_01_4wd_tb6612fng_prototype.jpg) | Photo | The earliest 4WD prototype chassis with dual TB6612FNG drivers, 4 TT motors, and ESP32. |
+| [`cyberrover_evolution_02_8wd_chassis_internal.jpg`](../media/prototypes/cyberrover_evolution_02_8wd_chassis_internal.jpg) | Photo | Interior layout of the 8WD combat chassis with 3S 40A BMS, rocker switch, and breadboard. |
+| [`cyberrover_evolution_03_x1_robofight_battle_chassis.jpg`](../media/prototypes/cyberrover_evolution_03_x1_robofight_battle_chassis.jpg) | Photo | Battle-ready CyberRover X1 armored shell with front wedge for school RoboFight (2nd Prize). |
+| [`cyberrover_evolution_04_x2_bit_sindri_exhibition.jpg`](../media/prototypes/cyberrover_evolution_04_x2_bit_sindri_exhibition.jpg) | Photo | CyberRover X2 environmental recon build with curved sonar, OLED, and phone mount at BIT Sindri (2nd Prize). |
+| [`cyberrover_evolution_05_x3_yolo_ai_phone_mount.jpg`](../media/prototypes/cyberrover_evolution_05_x3_yolo_ai_phone_mount.jpg) | Photo | CyberRover X3 with real-time smartphone YOLO AI object detection and voice synthesis at BIT Sindri (3rd Prize). |
 | [`cyberrover_x4_early_chassis_top.jpg`](../media/prototypes/cyberrover_x4_early_chassis_top.jpg) | Photo | Top-down view of the initial 4WD MDF chassis with dual BTS7960 and Uno/ESP32 stack. |
 | [`cyberrover_x4_early_chassis_front_angle.jpg`](../media/prototypes/cyberrover_x4_early_chassis_front_angle.jpg) | Photo | Front three-quarter angle of early chassis during floor testing. |
 | [`cyberrover_x4_early_chassis_side_angle.jpg`](../media/prototypes/cyberrover_x4_early_chassis_side_angle.jpg) | Photo | Side perspective showing tiered MDF layers and motor bracket cutouts. |

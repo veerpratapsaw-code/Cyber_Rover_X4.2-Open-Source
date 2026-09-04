@@ -429,7 +429,7 @@ export default function FooterFinale() {
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px' }}>
               <Sparkles size={20} style={{ color: 'var(--accent-cyan)' }} />
               <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.75rem', color: 'var(--accent-cyan)', letterSpacing: '0.14em' }}>
-                // ARCHITECT & CREATOR DOSSIER
+                // ARCHITECT &amp; CREATOR DOSSIER
               </span>
             </div>
 
@@ -437,50 +437,89 @@ export default function FooterFinale() {
               VEER PRATAP SAW
             </h3>
 
-            <div style={{ fontFamily: 'var(--font-mono)', fontSize: '0.8125rem', color: 'var(--status-nominal)', marginBottom: '16px' }}>
-              PROJECT CREATOR // LEAD EMBEDDED & ROBOTICS ARCHITECT
+            <div style={{ fontFamily: 'var(--font-mono)', fontSize: '0.8125rem', color: 'var(--status-nominal)', marginBottom: '14px' }}>
+              PROJECT CREATOR // LEAD EMBEDDED &amp; ROBOTICS ARCHITECT
             </div>
 
-            <p style={{ fontSize: '0.9375rem', color: 'var(--text-secondary)', lineHeight: 1.6, marginBottom: '20px' }}>
-              Designed, built, and programmed the complete <strong>CyberRover Model X4</strong> multi-node robotics continuum and conceived the next-generation <strong>CyberRover X5</strong> deep-mine reconnaissance platform.
+            <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', lineHeight: 1.6, marginBottom: '16px' }}>
+              Conceived and engineered the complete <strong>CyberRover</strong> continuum across 5 generations (X1 combat car, X2 gas recon, X3 smartphone YOLO AI vision, and X4/X4.2 open-source platform) through <strong>850+ hours</strong> of hands-on R&amp;D. Collaborated with <strong>Om Ashutosh</strong> during collegiate exhibitions.
             </p>
 
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '20px', fontFamily: 'var(--font-mono)', fontSize: '0.75rem' }}>
-              <div style={{ padding: '10px', background: 'rgba(255,255,255,0.03)', borderRadius: 'var(--radius-xs)', border: '1px solid var(--border-subtle)' }}>
-                <div style={{ color: 'var(--text-muted)', fontSize: '0.625rem' }}>RESEARCH LAB</div>
-                <div style={{ color: 'var(--text-primary)', fontWeight: 600 }}>RBOTICS | Katras, Dhanbad</div>
+            {/* Honors & Exhibition Recognitions */}
+            <div style={{ marginBottom: '16px', background: 'rgba(255, 215, 0, 0.04)', border: '1px solid rgba(255, 215, 0, 0.2)', borderRadius: 'var(--radius-xs)', padding: '10px 14px' }}>
+              <div style={{ fontFamily: 'var(--font-mono)', fontSize: '0.625rem', color: '#ffd700', fontWeight: 700, letterSpacing: '0.1em', marginBottom: '6px' }}>
+                EXHIBITION HONORS &amp; AWARDS
               </div>
-              <div style={{ padding: '10px', background: 'rgba(255,255,255,0.03)', borderRadius: 'var(--radius-xs)', border: '1px solid var(--border-subtle)' }}>
-                <div style={{ color: 'var(--text-muted)', fontSize: '0.625rem' }}>HARDWARE PROTOTYPE</div>
-                <div style={{ color: 'var(--accent-cyan)', fontWeight: 600 }}>CyberRover X4.2 (Active)</div>
-              </div>
-              <div style={{ padding: '10px', background: 'rgba(255,255,255,0.03)', borderRadius: 'var(--radius-xs)', border: '1px solid var(--border-subtle)' }}>
-                <div style={{ color: 'var(--text-muted)', fontSize: '0.625rem' }}>FUTURE ROADMAP</div>
-                <div style={{ color: 'var(--accent-cyan)', fontWeight: 600 }}>CyberRover X5 Deep Recon</div>
-              </div>
-              <div style={{ padding: '10px', background: 'rgba(255,255,255,0.03)', borderRadius: 'var(--radius-xs)', border: '1px solid var(--border-subtle)' }}>
-                <div style={{ color: 'var(--text-muted)', fontSize: '0.625rem' }}>ARCHITECTURE</div>
-                <div style={{ color: 'var(--status-nominal)', fontWeight: 600 }}>6-Node Dual-Bus Topology</div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', fontFamily: 'var(--font-mono)', fontSize: '0.6875rem', color: 'var(--text-primary)' }}>
+                <div>🏆 <strong>2nd Prize</strong> · School RoboFight Combat Tournament (Jan 2026, 8WD X1)</div>
+                <div>🏆 <strong>2nd Prize</strong> · BIT Sindri Technical Exhibition (Apr 2026, CyberRover X2)</div>
+                <div>🏆 <strong>3rd Prize</strong> · BIT Sindri Technical Exhibition (Jun 2026, X3 YOLO Vision)</div>
               </div>
             </div>
 
-            <button
-              onClick={() => setShowCreatorModal(false)}
-              style={{
-                width: '100%',
-                padding: '12px',
-                background: 'var(--accent-cyan)',
-                border: 'none',
-                borderRadius: 'var(--radius-xs)',
-                color: 'var(--text-inverse)',
-                fontFamily: 'var(--font-mono)',
-                fontSize: '0.8125rem',
-                fontWeight: 700,
-                cursor: 'pointer'
-              }}
-            >
-              CLOSE DOSSIER
-            </button>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px', marginBottom: '18px', fontFamily: 'var(--font-mono)', fontSize: '0.75rem' }}>
+              <div style={{ padding: '8px 10px', background: 'rgba(255,255,255,0.03)', borderRadius: 'var(--radius-xs)', border: '1px solid var(--border-subtle)' }}>
+                <div style={{ color: 'var(--text-muted)', fontSize: '0.5625rem' }}>R&amp;D INVESTMENT</div>
+                <div style={{ color: 'var(--status-nominal)', fontWeight: 600 }}>850+ Total Hours</div>
+              </div>
+              <div style={{ padding: '8px 10px', background: 'rgba(255,255,255,0.03)', borderRadius: 'var(--radius-xs)', border: '1px solid var(--border-subtle)' }}>
+                <div style={{ color: 'var(--text-muted)', fontSize: '0.5625rem' }}>LAB LOCATION</div>
+                <div style={{ color: 'var(--text-primary)', fontWeight: 600 }}>Katras, Dhanbad</div>
+              </div>
+              <div style={{ padding: '8px 10px', background: 'rgba(255,255,255,0.03)', borderRadius: 'var(--radius-xs)', border: '1px solid var(--border-subtle)' }}>
+                <div style={{ color: 'var(--text-muted)', fontSize: '0.5625rem' }}>X2–X3 COLLABORATOR</div>
+                <div style={{ color: 'var(--text-primary)', fontWeight: 600 }}>Om Ashutosh</div>
+              </div>
+              <div style={{ padding: '8px 10px', background: 'rgba(255,255,255,0.03)', borderRadius: 'var(--radius-xs)', border: '1px solid var(--border-subtle)' }}>
+                <div style={{ color: 'var(--text-muted)', fontSize: '0.5625rem' }}>ACTIVE PLATFORM</div>
+                <div style={{ color: 'var(--accent-cyan)', fontWeight: 600 }}>CyberRover X4.2</div>
+              </div>
+            </div>
+
+            <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
+              <a
+                href="https://veerpratapsaw.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  flex: '1 1 180px',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '6px',
+                  padding: '11px',
+                  background: 'var(--accent-cyan)',
+                  border: 'none',
+                  borderRadius: 'var(--radius-xs)',
+                  color: 'var(--text-inverse)',
+                  fontFamily: 'var(--font-mono)',
+                  fontSize: '0.75rem',
+                  fontWeight: 700,
+                  textDecoration: 'none',
+                  boxShadow: '0 0 16px rgba(0, 217, 255, 0.4)'
+                }}
+              >
+                <span>CREATOR PORTFOLIO</span>
+                <ArrowUpRight size={14} />
+              </a>
+              <button
+                onClick={() => setShowCreatorModal(false)}
+                style={{
+                  flex: '0 1 100px',
+                  padding: '11px',
+                  background: 'rgba(255,255,255,0.08)',
+                  border: '1px solid var(--border-subtle)',
+                  borderRadius: 'var(--radius-xs)',
+                  color: 'var(--text-primary)',
+                  fontFamily: 'var(--font-mono)',
+                  fontSize: '0.75rem',
+                  fontWeight: 600,
+                  cursor: 'pointer'
+                }}
+              >
+                CLOSE
+              </button>
+            </div>
           </div>
         </div>
       )}

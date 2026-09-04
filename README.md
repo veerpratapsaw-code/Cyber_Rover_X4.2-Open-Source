@@ -5,6 +5,7 @@
 [![License: Multi](https://img.shields.io/badge/License-MIT%20%7C%20CERN--OHL--S%20%7C%20CC--BY-blue.svg)](LICENSE.md)
 [![Platform: ESP32-S3 | Uno | Nano | CAM](https://img.shields.io/badge/Hardware-ESP32--S3%20%7C%20Uno%20%7C%20Nano%20%7C%20CAM-orange.svg)](hardware/HARDWARE_OVERVIEW.md)
 [![Website Demo](https://img.shields.io/badge/Live%20Demo-Vercel%20App-green.svg)](https://cyber-rover-x4.vercel.app/)
+[![Creator: Veer Pratap Saw](https://img.shields.io/badge/Creator-Veer%20Pratap%20Saw-blueviolet.svg)](https://veerpratapsaw.vercel.app/)
 [![Build: Verified](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](documentation/testing/TESTING.md)
 
 ---
@@ -12,7 +13,8 @@
 > [!TIP]
 > 🌐 **Official Interactive Showcase Website & Live Demo**:  
 > Explore the 3D model, simulated telemetry oscilloscope, mission manifesto, and platform specs online:  
-> 👉 **[https://cyber-rover-x4.vercel.app/](https://cyber-rover-x4.vercel.app/)**
+> 👉 **[https://cyber-rover-x4.vercel.app/](https://cyber-rover-x4.vercel.app/)**  
+> 🔗 **Creator Portfolio**: **[https://veerpratapsaw.vercel.app/](https://veerpratapsaw.vercel.app/)**
 
 ![CyberRover X4.2 Studio View](media/rover/cyberrover_x4_studio_photo.png)
 
@@ -21,6 +23,7 @@
 ## 📖 Table of Contents
 
 - [Overview](#-overview)
+- [Development History & Evolution](#-development-history--evolution)
 - [Problem](#-problem)
 - [Idea](#-idea)
 - [Current Capabilities](#-current-capabilities)
@@ -45,13 +48,25 @@
 - [Project Website](#-project-website)
 - [Contributing](#-contributing)
 - [License](#-license)
-- [Acknowledgements](#-acknowledgements)
+- [Author & Acknowledgements](#-author--acknowledgements)
 
 ---
 
 ## 🔭 Overview
 
-The **CyberRover X4.2** is an open-source, multi-microcontroller ground robotics platform designed for remote environmental inspection, hazardous-area surveying, and disaster simulation. Developed in Katras, Dhanbad, Jharkhand, India, the project demonstrates how low-cost commercial off-the-shelf (COTS) electronics—microcontrollers, metal-oxide gas sensors, ultrasonic transceivers, and an ergonomic handmade handheld controller—can be orchestrated into an effective, distributed teleoperation platform.
+The **CyberRover X4.2** is an open-source, multi-microcontroller ground robotics platform designed for remote environmental inspection, hazardous-area surveying, and disaster simulation. Conceived and engineered in **Katras, Dhanbad, Jharkhand, India** by **Veer Pratap Saw** (with core collaboration from **Om Ashutosh** on X2–X3 models), the platform represents over **850+ hours** of intensive hands-on R&D across five distinct vehicle generations:
+1. **Initial 4WD Concept (Oct 2025)**: Room scanning 2D LiDAR prototype with TB6612FNG drivers and 4 TT motors.
+2. **CyberRover X1 (Jan 2026)**: 8WD battle robot with Arduino Uno + ESP32-S3 + L298N drivers (🏆 **2nd Prize**, School RoboFight).
+3. **CyberRover X2 (Apr 2026)**: First environmental recon rover with MQ gas telemetry, 8WD chassis, and front OLED (🏆 **2nd Prize**, BIT Sindri Exhibition).
+4. **CyberRover X3 (Jun 2026)**: AI vision leap with smartphone camera, real-time YOLO object detection, laptop voice synthesis, and auto sonar navigation (🏆 **3rd Prize**, BIT Sindri Exhibition).
+5. **CyberRover X4 & X4.2 (Aug–Sep 2026)**: Complete industrial redesign with heavy-duty 4WD 37GB geared motors, dual 43A BTS7960 drivers, custom handmade handheld remote with ESP-NOW HUD, distributed 4-MCU architecture, and open-source release.
+
+---
+
+## 📜 Development History & Evolution
+
+For the complete illustrated chronological journey, competition photographs, R&D loss accounting, and vehicle iteration details, see the dedicated engineering evolution document:  
+👉 **[`DEVELOPMENT_HISTORY.md`](DEVELOPMENT_HISTORY.md)**
 
 ---
 
@@ -396,8 +411,17 @@ See [`LICENSE.md`](LICENSE.md) and [`THIRD_PARTY.md`](THIRD_PARTY.md) for full d
 
 ---
 
-## 🙏 Acknowledgements
+## 👨‍💻 Author & Acknowledgements
 
-- Developed by the robotics engineering team in **Katras, Dhanbad, Jharkhand, India**.
-- Presented at the regional science exhibition in Katras, Dhanbad ([Speech Transcript](documentation/exhibition/DHANBAD_EXHIBITION_SPEECH.md)).
-- Grateful appreciation to the global Arduino, Espressif, and open-source robotics communities for developing foundational open hardware and libraries.
+- **Creator & Lead Hardware/Software Architect**: **Veer Pratap Saw**
+  - Personal Portfolio & Other Projects: **[https://veerpratapsaw.vercel.app/](https://veerpratapsaw.vercel.app/)**
+  - GitHub: [@veerpratapsaw-code](https://github.com/veerpratapsaw-code)
+  - Location: **Katras, Dhanbad, Jharkhand, India**
+- **Core Collaborator (X2 & X3 Generations)**: **Om Ashutosh** (Co-developed the CyberRover X2 and X3 models for collegiate exhibitions).
+- **Competition Honors & Exhibition Awards**:
+  - 🏆 **2nd Prize** — School RoboFight Tournament (January 2026, 8WD CyberRover X1)
+  - 🏆 **2nd Prize** — BIT Sindri Technical Exhibition (April 2026, CyberRover X2 Environmental Recon)
+  - 🏆 **3rd Prize** — BIT Sindri Technical Exhibition (June 2026, CyberRover X3 YOLO AI Vision & Voice)
+  - 🎖️ Presented at the regional science exhibition in Katras, Dhanbad ([Speech Transcript](documentation/exhibition/DHANBAD_EXHIBITION_SPEECH.md)).
+- **Development Chronicle**: Full 850+ hour technical history and iteration photographs documented in [`DEVELOPMENT_HISTORY.md`](DEVELOPMENT_HISTORY.md).
+- **Open Source Appreciation**: Grateful appreciation to the global Arduino, Espressif, ROS, and open-source robotics communities for developing foundational open hardware and libraries.
