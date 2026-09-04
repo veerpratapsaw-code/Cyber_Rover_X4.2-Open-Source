@@ -5,6 +5,7 @@ import sensorMq4Img from '../../assets/sensor_mq4.jpg';
 import sensorMq7Img from '../../assets/sensor_mq7.jpg';
 import sensorMq135Img from '../../assets/sensor_mq135.jpg';
 import sensorDht22Img from '../../assets/sensor_dht22.jpg';
+import sensorBmp280Img from '../../assets/sensor_bmp280.jpg';
 
 const SENSOR_MODULES = [
   {
@@ -40,8 +41,8 @@ const SENSOR_MODULES = [
   {
     id: 3,
     code: 'BMP-280',
-    name: 'Barometric Pressure & Relative Elevation',
-    image: sensorDht22Img,
+    name: 'BMP280 — Barometric Pressure & Relative Elevation',
+    image: sensorBmp280Img,
     tech: 'Piezoresistive Micro-Electro-Mechanical (MEMS)',
     targets: 'Atmospheric Barometric Pressure (hPa) & Relative Elevation',
     work: 'Measures barometric pressure (300 to 1100 hPa) with relative altitude estimation to help operators assess vertical elevation changes in collapsed structures or shafts.',
