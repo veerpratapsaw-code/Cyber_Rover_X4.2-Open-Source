@@ -133,7 +133,7 @@ export default function NavigationHUD({ activeSection, scrollPercent, batteryVol
 
           {/* GitHub Open-Source Repository Link */}
           <a
-            href="https://github.com/veerpratapsaw/cyberrover-x4"
+            href="https://github.com/veerpratapsaw-code/Cyber_Rover_X4.2-Open-Source"
             target="_blank"
             rel="noopener noreferrer"
             className="desktop-only"
@@ -278,7 +278,7 @@ export default function NavigationHUD({ activeSection, scrollPercent, batteryVol
           })}
 
           <a
-            href="https://github.com/veerpratapsaw/cyberrover-x4"
+            href="https://github.com/veerpratapsaw-code/Cyber_Rover_X4.2-Open-Source"
             target="_blank"
             rel="noopener noreferrer"
             style={{

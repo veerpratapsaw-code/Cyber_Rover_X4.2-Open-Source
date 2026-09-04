@@ -26,8 +26,11 @@
   --accent-blue-dim: rgba(22, 119, 255, 0.12);
 
   --status-nominal: #39E58C;
+  --status-nominal-dim: rgba(57, 229, 140, 0.12);
   --status-warning: #FFB020;
+  --status-warning-dim: rgba(255, 176, 32, 0.12);
   --status-hazard: #FF4D4D;
+  --status-hazard-dim: rgba(255, 77, 77, 0.12);
 
   /* ==========================================================================
      TYPOGRAPHY TOKENS (Engineered, Geometric & Condensed Character)
@@ -43,8 +46,11 @@
   --space-2: 8px;
   --space-3: 12px;
   --space-4: 16px;
+  --space-5: 20px;
   --space-6: 24px;
+  --space-7: 28px;
   --space-8: 32px;
+  --space-10: 40px;
   --space-12: 48px;
   --space-16: 64px;
   --space-20: 80px;
@@ -59,6 +65,7 @@
      MOTION EASING & TIMINGS (Weighted, Precise & Mechanical)
      ========================================================================== */
   --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
   --ease-smooth: cubic-bezier(0.25, 1, 0.5, 1);
   --ease-snap: cubic-bezier(0, 0, 0.2, 1);
 

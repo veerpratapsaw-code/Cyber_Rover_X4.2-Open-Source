@@ -399,35 +399,53 @@ export default function SenseSection({ telemetry }) {
                 style={{
                   display: 'grid',
                   gridTemplateColumns: '1fr 1fr',
-                  gap: '10px',
+                  gap: '12px',
                   cursor: 'pointer',
                   border: `1px solid ${activeSensor === 4 ? 'var(--accent-blue)' : 'transparent'}`,
-                  borderRadius: 'var(--radius-xs)',
+                  borderRadius: 'var(--radius-sm)',
                   padding: '2px',
                   boxShadow: activeSensor === 4 ? '0 0 20px rgba(22, 119, 255, 0.25)' : 'none',
                   transition: 'all 0.25s ease'
                 }}
               >
-                <div style={{ background: 'var(--bg-elevated)', border: '1px solid var(--border-subtle)', borderRadius: 'var(--radius-xs)', padding: '12px 14px' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontFamily: 'var(--font-mono)', fontSize: '0.6875rem', color: 'var(--accent-cyan)', marginBottom: '4px' }}>
-                    <Thermometer size={13} />
+                <div style={{
+                  background: 'var(--bg-elevated)',
+                  border: '1px solid var(--border-subtle)',
+                  borderRadius: 'var(--radius-sm)',
+                  padding: '16px',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'space-between',
+                  minHeight: '100px'
+                }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontFamily: 'var(--font-mono)', fontSize: '0.6875rem', color: 'var(--accent-cyan)', marginBottom: '8px' }}>
+                    <Thermometer size={14} />
                     <span>DHT11 AMBIENT TEMP</span>
                   </div>
-                  <div style={{ fontFamily: 'var(--font-mono)', fontSize: '1.2rem', fontWeight: 700, color: 'var(--text-primary)' }}>
+                  <div style={{ fontFamily: 'var(--font-mono)', fontSize: '1.35rem', fontWeight: 700, color: 'var(--text-primary)', lineHeight: 1.2, margin: '2px 0 6px 0' }}>
                     {telemetry.temperature}°C
                   </div>
-                  <div style={{ fontSize: '0.625rem', color: 'var(--text-muted)' }}>Ambient Range: 0°C to 50°C</div>
+                  <div style={{ fontSize: '0.6875rem', color: 'var(--text-muted)', lineHeight: 1.4 }}>Ambient Range: 0°C to 50°C</div>
                 </div>
 
-                <div style={{ background: 'var(--bg-elevated)', border: '1px solid var(--border-subtle)', borderRadius: 'var(--radius-xs)', padding: '12px 14px' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontFamily: 'var(--font-mono)', fontSize: '0.6875rem', color: 'var(--accent-cyan)', marginBottom: '4px' }}>
-                    <Wind size={13} />
+                <div style={{
+                  background: 'var(--bg-elevated)',
+                  border: '1px solid var(--border-subtle)',
+                  borderRadius: 'var(--radius-sm)',
+                  padding: '16px',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'space-between',
+                  minHeight: '100px'
+                }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontFamily: 'var(--font-mono)', fontSize: '0.6875rem', color: 'var(--accent-cyan)', marginBottom: '8px' }}>
+                    <Wind size={14} />
                     <span>DHT11 HUMIDITY</span>
                   </div>
-                  <div style={{ fontFamily: 'var(--font-mono)', fontSize: '1.2rem', fontWeight: 700, color: 'var(--text-primary)' }}>
+                  <div style={{ fontFamily: 'var(--font-mono)', fontSize: '1.35rem', fontWeight: 700, color: 'var(--text-primary)', lineHeight: 1.2, margin: '2px 0 6px 0' }}>
                     {telemetry.humidity}%
                   </div>
-                  <div style={{ fontSize: '0.625rem', color: 'var(--text-muted)' }}>Ambient Range: 20% to 80% RH</div>
+                  <div style={{ fontSize: '0.6875rem', color: 'var(--text-muted)', lineHeight: 1.4 }}>Ambient Range: 20% to 80% RH</div>
                 </div>
               </div>
             </div>
@@ -438,11 +456,11 @@ export default function SenseSection({ telemetry }) {
         {/* INTERACTIVE BMP280 STRUCTURAL ELEVATION SIMULATOR         */}
         {/* ========================================================= */}
         <div className="reveal-3d" style={{
-          marginTop: 'var(--space-10)',
+          marginTop: 'clamp(3rem, 6vw, 4.5rem)',
           background: 'linear-gradient(145deg, rgba(16, 20, 26, 0.95), rgba(7, 9, 12, 0.98))',
           border: '1px solid rgba(0, 217, 255, 0.25)',
           borderRadius: '24px',
-          padding: 'clamp(16px, 3vw, 24px)'
+          padding: 'clamp(20px, 3.5vw, 32px)'
         }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px', flexWrap: 'wrap', gap: '10px' }}>
             <div>

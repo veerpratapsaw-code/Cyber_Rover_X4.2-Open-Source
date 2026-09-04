@@ -194,7 +194,7 @@ export default function FooterFinale() {
         <div style={{
           maxWidth: '820px',
           margin: '0 auto clamp(2rem, 5vw, 3.5rem)',
-          padding: 'clamp(20px, 3.5vw, 32px)',
+          padding: 'clamp(24px, 4vw, 36px)',
           background: 'linear-gradient(145deg, rgba(0, 217, 255, 0.05) 0%, rgba(22, 119, 255, 0.02) 100%)',
           border: '1px solid rgba(0, 217, 255, 0.35)',
           borderRadius: 'var(--radius-sm)',
@@ -205,7 +205,7 @@ export default function FooterFinale() {
             display: 'inline-flex',
             alignItems: 'center',
             gap: '8px',
-            padding: '4px 14px',
+            padding: '5px 14px',
             background: 'rgba(0, 217, 255, 0.1)',
             border: '1px solid var(--accent-cyan)',
             borderRadius: 'var(--radius-full)',
@@ -213,7 +213,7 @@ export default function FooterFinale() {
           }}>
             <Code size={13} style={{ color: 'var(--accent-cyan)' }} />
             <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.6875rem', fontWeight: 700, color: 'var(--accent-cyan)', letterSpacing: '0.12em' }}>
-              PUBLIC OPEN-SOURCE RELEASE // HARDWARE & SOFTWARE
+              PUBLIC OPEN-SOURCE RELEASE // HARDWARE &amp; SOFTWARE
             </span>
           </div>
 
@@ -239,14 +239,14 @@ export default function FooterFinale() {
 
           <div style={{ display: 'flex', justifyContent: 'center', gap: '12px', flexWrap: 'wrap' }}>
             <a
-              href="https://github.com/veerpratapsaw/cyberrover-x4"
+              href="https://github.com/veerpratapsaw-code/Cyber_Rover_X4.2-Open-Source"
               target="_blank"
               rel="noopener noreferrer"
               style={{
                 display: 'inline-flex',
                 alignItems: 'center',
                 gap: '8px',
-                padding: '12px 26px',
+                padding: '13px 28px',
                 background: 'var(--accent-cyan)',
                 border: 'none',
                 borderRadius: 'var(--radius-xs)',
@@ -280,100 +280,101 @@ export default function FooterFinale() {
           borderTop: '1px solid rgba(255, 255, 255, 0.08)',
           paddingTop: 'var(--space-6)',
           display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          flexWrap: 'wrap',
+          flexDirection: 'column',
           gap: '16px'
         }}>
           {/* Creator Attribution (Clickable for Dossier) */}
-          <div
-            onClick={() => setShowCreatorModal(true)}
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '10px',
-              cursor: 'pointer',
-              padding: '6px 14px',
-              background: 'rgba(0, 217, 255, 0.05)',
-              border: '1px solid rgba(0, 217, 255, 0.25)',
-              borderRadius: 'var(--radius-xs)',
-              transition: 'all 0.25s ease'
-            }}
-            onMouseEnter={e => {
-              e.currentTarget.style.borderColor = 'var(--accent-cyan)';
-              e.currentTarget.style.background = 'rgba(0, 217, 255, 0.12)';
-              e.currentTarget.style.boxShadow = '0 0 16px rgba(0, 217, 255, 0.25)';
-            }}
-            onMouseLeave={e => {
-              e.currentTarget.style.borderColor = 'rgba(0, 217, 255, 0.25)';
-              e.currentTarget.style.background = 'rgba(0, 217, 255, 0.05)';
-              e.currentTarget.style.boxShadow = 'none';
-            }}
-          >
-            <span className="animate-blink" style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--accent-cyan)', boxShadow: '0 0 10px var(--accent-cyan)' }} />
-            <div style={{
-              fontFamily: 'var(--font-heading)',
-              fontSize: 'clamp(0.9375rem, 2vw, 1.125rem)',
-              fontWeight: 800,
-              color: 'var(--text-primary)',
-              letterSpacing: '0.04em'
-            }}>
-              VEER PRATAP SAW
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div
+              onClick={() => setShowCreatorModal(true)}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '10px',
+                cursor: 'pointer',
+                padding: '8px 16px',
+                background: 'rgba(0, 217, 255, 0.05)',
+                border: '1px solid rgba(0, 217, 255, 0.25)',
+                borderRadius: 'var(--radius-xs)',
+                transition: 'all 0.25s ease'
+              }}
+              onMouseEnter={e => {
+                e.currentTarget.style.borderColor = 'var(--accent-cyan)';
+                e.currentTarget.style.background = 'rgba(0, 217, 255, 0.12)';
+                e.currentTarget.style.boxShadow = '0 0 16px rgba(0, 217, 255, 0.25)';
+              }}
+              onMouseLeave={e => {
+                e.currentTarget.style.borderColor = 'rgba(0, 217, 255, 0.25)';
+                e.currentTarget.style.background = 'rgba(0, 217, 255, 0.05)';
+                e.currentTarget.style.boxShadow = 'none';
+              }}
+            >
+              <span className="animate-blink" style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--accent-cyan)', boxShadow: '0 0 10px var(--accent-cyan)' }} />
+              <div style={{
+                fontFamily: 'var(--font-heading)',
+                fontSize: 'clamp(0.9375rem, 2vw, 1.125rem)',
+                fontWeight: 800,
+                color: 'var(--text-primary)',
+                letterSpacing: '0.04em'
+              }}>
+                VEER PRATAP SAW
+              </div>
+              <span style={{
+                fontFamily: 'var(--font-mono)',
+                fontSize: '0.625rem',
+                color: 'var(--accent-cyan)',
+                letterSpacing: '0.08em'
+              }}>
+                // PROJECT CREATOR &amp; LEAD ARCHITECT
+              </span>
             </div>
-            <span style={{
-              fontFamily: 'var(--font-mono)',
-              fontSize: '0.625rem',
-              color: 'var(--accent-cyan)',
-              letterSpacing: '0.08em'
-            }}>
-              // PROJECT CREATOR & LEAD ARCHITECT
-            </span>
           </div>
 
-          {/* Minimal Status & Year */}
-        {/* Verbatim Final Engineering & Regulatory Disclaimer */}
-        <div style={{
-          padding: '12px 18px',
-          background: 'rgba(255, 176, 32, 0.05)',
-          border: '1px solid rgba(255, 176, 32, 0.25)',
-          borderRadius: 'var(--radius-xs)',
-          marginBottom: 'var(--space-6)',
-          fontFamily: 'var(--font-mono)',
-          fontSize: '0.6875rem',
-          color: 'var(--text-secondary)',
-          lineHeight: 1.6,
-          textAlign: 'center'
-        }}>
-          <strong style={{ color: 'var(--status-warning)' }}>ENGINEERING & REGULATORY DISCLAIMER:</strong> CyberRover X4.2 is a student-built engineering prototype for remote reconnaissance and environmental inspection. It is not currently certified for explosion-proof, intrinsically safe, mining, fire-entry, or military deployment. Future X5 specifications represent proposed engineering development.
-        </div>
-
-        {/* Bottom Metadata */}
-        <div style={{
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          flexWrap: 'wrap',
-          gap: '16px'
-        }}>
+          {/* Verbatim Final Engineering & Regulatory Disclaimer */}
           <div style={{
+            padding: '14px 20px',
+            background: 'rgba(255, 176, 32, 0.05)',
+            border: '1px solid rgba(255, 176, 32, 0.25)',
+            borderRadius: 'var(--radius-xs)',
             fontFamily: 'var(--font-mono)',
-            fontSize: '0.75rem',
-            color: 'var(--text-muted)',
-            display: 'flex',
-            gap: '14px',
-            alignItems: 'center',
-            flexWrap: 'wrap'
+            fontSize: '0.6875rem',
+            color: 'var(--text-secondary)',
+            lineHeight: 1.6,
+            textAlign: 'center',
+            maxWidth: '900px',
+            margin: '0 auto'
           }}>
-            <span>© 2026 CYBERROVER X4.2</span>
-            <span>·</span>
-            <span>RBOTICS LABS</span>
-            <span>·</span>
-            <span style={{ color: 'var(--status-nominal)' }}>OPERATOR-CONTROLLED PROTOTYPE</span>
-            <span>·</span>
-            <span>ALL RIGHTS RESERVED</span>
+            <strong style={{ color: 'var(--status-warning)' }}>ENGINEERING &amp; REGULATORY DISCLAIMER:</strong> CyberRover X4.2 is a student-built engineering prototype for remote reconnaissance and environmental inspection. It is not currently certified for explosion-proof, intrinsically safe, mining, fire-entry, or military deployment. Future X5 specifications represent proposed engineering development.
+          </div>
+
+          {/* Bottom Metadata */}
+          <div style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            flexWrap: 'wrap',
+            paddingTop: '4px'
+          }}>
+            <div style={{
+              fontFamily: 'var(--font-mono)',
+              fontSize: '0.75rem',
+              color: 'var(--text-muted)',
+              display: 'flex',
+              gap: '14px',
+              alignItems: 'center',
+              flexWrap: 'wrap',
+              justifyContent: 'center'
+            }}>
+              <span>© 2026 CYBERROVER X4.2</span>
+              <span>·</span>
+              <span>RBOTICS LABS</span>
+              <span>·</span>
+              <span style={{ color: 'var(--status-nominal)' }}>OPERATOR-CONTROLLED PROTOTYPE</span>
+              <span>·</span>
+              <span>ALL RIGHTS RESERVED</span>
+            </div>
           </div>
         </div>
-      </div>
     </div>
 
       {/* ============================================================ */}

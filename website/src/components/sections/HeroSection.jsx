@@ -93,38 +93,46 @@ export default function HeroSection({ telemetry }) {
 
       {/* Main 3D Composition Grid Container */}
       <div className="container" style={{ position: 'relative', zIndex: 2, width: '100%', textAlign: 'center' }}>
-        {/* Open Source Project Indicator */}
+        {/* Top Badges Container */}
         <div className="reveal-3d" style={{
-          display: 'inline-flex',
+          display: 'flex',
           alignItems: 'center',
-          gap: '8px',
-          padding: '4px 14px',
-          background: 'rgba(0, 217, 255, 0.08)',
-          border: '1px solid rgba(0, 217, 255, 0.35)',
-          borderRadius: 'var(--radius-full)',
-          marginBottom: 'var(--space-2)'
+          justifyContent: 'center',
+          flexWrap: 'wrap',
+          gap: '12px',
+          marginBottom: '16px'
         }}>
-          <Code size={12} style={{ color: 'var(--accent-cyan)' }} />
-          <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'clamp(0.5625rem, 1.4vw, 0.6875rem)', fontWeight: 700, color: 'var(--accent-cyan)', letterSpacing: '0.12em' }}>
-            100% OPEN SOURCE ROBOTICS (MIT & CERN-OHL)
-          </span>
-        </div>
+          {/* Open Source Project Indicator */}
+          <div style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '8px',
+            padding: '6px 14px',
+            background: 'rgba(0, 217, 255, 0.08)',
+            border: '1px solid rgba(0, 217, 255, 0.35)',
+            borderRadius: 'var(--radius-full)'
+          }}>
+            <Code size={13} style={{ color: 'var(--accent-cyan)' }} />
+            <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'clamp(0.5625rem, 1.4vw, 0.6875rem)', fontWeight: 700, color: 'var(--accent-cyan)', letterSpacing: '0.12em' }}>
+              100% OPEN SOURCE ROBOTICS (MIT &amp; CERN-OHL)
+            </span>
+          </div>
 
-        {/* Top Minimalist Product Code Badge with GREEN CURRENT TAG */}
-        <div className="reveal-3d" style={{
-          display: 'inline-flex',
-          alignItems: 'center',
-          gap: '8px',
-          padding: '5px 16px',
-          background: 'rgba(57, 229, 140, 0.08)',
-          border: '1px solid rgba(57, 229, 140, 0.3)',
-          borderRadius: 'var(--radius-full)',
-          marginBottom: 'var(--space-3)'
-        }}>
-          <span className="animate-blink" style={{ width: '6px', height: '6px', borderRadius: '50%', background: 'var(--status-nominal)', boxShadow: '0 0 8px var(--status-nominal)' }} />
-          <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'clamp(0.625rem, 1.6vw, 0.75rem)', fontWeight: 700, color: 'var(--status-nominal)', letterSpacing: '0.14em' }}>
-            CYBERROVER X4.2 // CURRENT BUILT & DEMONSTRATED PROTOTYPE (2026)
-          </span>
+          {/* Top Minimalist Product Code Badge with GREEN CURRENT TAG */}
+          <div style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '8px',
+            padding: '6px 16px',
+            background: 'rgba(57, 229, 140, 0.08)',
+            border: '1px solid rgba(57, 229, 140, 0.3)',
+            borderRadius: 'var(--radius-full)'
+          }}>
+            <span className="animate-blink" style={{ width: '6px', height: '6px', borderRadius: '50%', background: 'var(--status-nominal)', boxShadow: '0 0 8px var(--status-nominal)' }} />
+            <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'clamp(0.625rem, 1.6vw, 0.75rem)', fontWeight: 700, color: 'var(--status-nominal)', letterSpacing: '0.14em' }}>
+              CYBERROVER X4.2 // CURRENT BUILT &amp; DEMONSTRATED PROTOTYPE (2026)
+            </span>
+          </div>
         </div>
 
         {/* Project Mission Sub-Badge */}
@@ -386,7 +394,7 @@ export default function HeroSection({ telemetry }) {
           </button>
 
           <a
-            href="https://github.com/veerpratapsaw/cyberrover-x4"
+            href="https://github.com/veerpratapsaw-code/Cyber_Rover_X4.2-Open-Source"
             target="_blank"
             rel="noopener noreferrer"
             style={{

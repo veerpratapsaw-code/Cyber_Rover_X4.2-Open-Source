@@ -171,7 +171,7 @@ export default function LimitationsSection() {
         <div style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 320px), 1fr))',
-          gap: 'clamp(1rem, 2.5vw, 1.75rem)',
+          gap: 'clamp(1.25rem, 2.5vw, 2rem)',
           marginBottom: 'var(--space-8)'
         }}>
           {LIMITATION_ITEMS.map((item, idx) => {
@@ -187,7 +187,7 @@ export default function LimitationsSection() {
                   background: isSelected ? 'var(--bg-elevated)' : 'rgba(16, 20, 26, 0.75)',
                   border: `1px solid ${isSelected ? item.color : 'var(--border-subtle)'}`,
                   borderRadius: 'var(--radius-sm)',
-                  padding: 'var(--space-5)',
+                  padding: 'clamp(20px, 2.5vw, 26px)',
                   cursor: 'pointer',
                   transition: 'all 0.25s ease',
                   boxShadow: isSelected ? `0 0 24px ${item.color}25` : 'none',
@@ -195,26 +195,27 @@ export default function LimitationsSection() {
                 }}
               >
                 {/* Header Row */}
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '12px', marginBottom: '14px' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
                     <div style={{
-                      width: '32px',
-                      height: '32px',
+                      width: '34px',
+                      height: '34px',
                       borderRadius: 'var(--radius-xs)',
                       background: `${item.color}18`,
                       border: `1px solid ${item.color}40`,
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
-                      color: item.color
+                      color: item.color,
+                      flexShrink: 0
                     }}>
-                      <IconComponent size={17} />
+                      <IconComponent size={18} />
                     </div>
                     <div>
-                      <div style={{ fontFamily: 'var(--font-mono)', fontSize: '0.625rem', color: 'var(--text-muted)' }}>
+                      <div style={{ fontFamily: 'var(--font-mono)', fontSize: '0.625rem', color: 'var(--text-muted)', letterSpacing: '0.04em' }}>
                         {item.category}
                       </div>
-                      <div style={{ fontFamily: 'var(--font-heading)', fontSize: '0.9375rem', fontWeight: 700, color: 'var(--text-primary)' }}>
+                      <div style={{ fontFamily: 'var(--font-heading)', fontSize: '0.9375rem', fontWeight: 700, color: 'var(--text-primary)', marginTop: '2px' }}>
                         {item.title}
                       </div>
                     </div>
@@ -225,38 +226,39 @@ export default function LimitationsSection() {
                     fontSize: '0.5625rem',
                     color: item.color,
                     background: `${item.color}15`,
-                    padding: '3px 8px',
+                    padding: '4px 8px',
                     borderRadius: 'var(--radius-xs)',
                     fontWeight: 700,
-                    whiteSpace: 'nowrap'
+                    whiteSpace: 'nowrap',
+                    flexShrink: 0
                   }}>
                     {item.tag}
                   </span>
                 </div>
 
                 {/* Built Reality */}
-                <div style={{ marginBottom: '10px' }}>
-                  <div style={{ fontFamily: 'var(--font-mono)', fontSize: '0.625rem', color: 'var(--status-nominal)', marginBottom: '3px', display: 'flex', alignItems: 'center', gap: '5px' }}>
-                    <CheckCircle2 size={11} />
+                <div style={{ marginBottom: '14px' }}>
+                  <div style={{ fontFamily: 'var(--font-mono)', fontSize: '0.625rem', color: 'var(--status-nominal)', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <CheckCircle2 size={12} />
                     <span>PHYSICAL ROVER IMPLEMENTATION:</span>
                   </div>
-                  <p style={{ fontSize: '0.8125rem', color: 'var(--text-secondary)', lineHeight: 1.5, margin: 0 }}>
+                  <p style={{ fontSize: '0.8125rem', color: 'var(--text-secondary)', lineHeight: 1.55, margin: 0 }}>
                     {item.reality}
                   </p>
                 </div>
 
                 {/* Operational Boundary */}
                 <div style={{
-                  padding: '8px 10px',
-                  background: 'rgba(0, 0, 0, 0.3)',
+                  padding: '10px 14px',
+                  background: 'rgba(0, 0, 0, 0.35)',
                   borderLeft: `2px solid ${item.color}`,
                   borderRadius: '0 var(--radius-xs) var(--radius-xs) 0'
                 }}>
-                  <div style={{ fontFamily: 'var(--font-mono)', fontSize: '0.625rem', color: item.color, marginBottom: '3px', display: 'flex', alignItems: 'center', gap: '5px' }}>
-                    <AlertTriangle size={11} />
+                  <div style={{ fontFamily: 'var(--font-mono)', fontSize: '0.625rem', color: item.color, marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <AlertTriangle size={12} />
                     <span>OPERATIONAL BOUNDARY / LIMITATION:</span>
                   </div>
-                  <p style={{ fontSize: '0.8125rem', color: 'var(--text-muted)', lineHeight: 1.5, margin: 0 }}>
+                  <p style={{ fontSize: '0.8125rem', color: 'var(--text-muted)', lineHeight: 1.55, margin: 0 }}>
                     {item.boundary}
                   </p>
                 </div>
