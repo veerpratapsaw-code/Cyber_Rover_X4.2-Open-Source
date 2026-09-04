@@ -71,8 +71,6 @@ CYBERROVER-X4/
 ├── future/                            # Next-generation conceptual designs
 │   └── cyberrover-x5/                 # Conceptual design for future ATEX deep-mine rover
 │
-├── original_workspace_backup/         # Complete untouched backup of original workspace
-│
 └── website/                           # Presentation and showcase web application
     ├── src/                           # React 19 source code
     ├── public/                        # Static web assets

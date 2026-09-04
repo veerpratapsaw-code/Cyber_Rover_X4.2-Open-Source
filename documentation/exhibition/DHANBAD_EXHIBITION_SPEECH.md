@@ -92,9 +92,9 @@ It enters dangerous zones ahead of humans, checks for explosive and toxic gases,
 
 ### ⏱️ 4:30 – 5:45 | REAL-WORLD SCALING: THE CYBERROVER X5 PLATFORM
 
-> **[ACTION]**: Switch the laptop screen or point to your poster showing the **CyberRover X5 Deep Recon Edition** concept image (`08_CyberRover_X5_Future/CYBERROVER_X5_FINAL_DESIGN.jpg`).
+> **[ACTION]**: Switch the laptop screen or point to your poster showing the **CyberRover X5 Deep Recon Edition** concept image (`future/cyberrover-x5/CYBERROVER_X5_FINAL_DESIGN.jpg`).
 
-![CyberRover X5 Final Production Platform](../08_CyberRover_X5_Future/CYBERROVER_X5_FINAL_DESIGN.jpg)
+![CyberRover X5 Final Production Platform](../../future/cyberrover-x5/CYBERROVER_X5_FINAL_DESIGN.jpg)
 
 **"Judges, what we have demonstrated today is a functional working prototype.**
 
